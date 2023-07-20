@@ -6,10 +6,8 @@
   <title>John's Homepage</title>
   <link rel="stylesheet" type="text/css" href="static/css/main.css">
   <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-    crossorigin="anonymous">
+    rel="stylesheet" type="text/css"
+    href="static/bootstrap-5.3.0-dist/css/bootstrap.min.css">
 </head>
 
 <body style="background-color:black;">
@@ -20,11 +18,11 @@
 
   <div class="container-lg bg-dark text-white">
     <h3 class="pt-1">About Me</h3>
-    <img src="static/img/goodbing.png" alt="I have been a good bing :)">
+    <img src="./static/img/goodbing.png" alt="I have been a good bing :)">
     <br><br>
     <p>I'm a junior computer heretic, IT guy, tinkerer, bad programmer,
-       and aspiring mad sea captain. Aargh, computers are but a fallback til me
-       vessle's seaworthy again!</p>
+       and aspiring mad sea captain. <i>Aargh, computers are but a fallback til me
+       vessle's seaworthy again!</i></p>
     <p>I'm a big fan of the Unix / Linux world. I spend a lot of my time
        inside of a terminal window. I'm prolific scriptor who enjoys automating
        computer task of all shapes and sizes.</p>
@@ -90,7 +88,7 @@
         <script src="https://www.hackthebox.eu/badge/381749"></script>
       </div>
       <div class="col">
-        <script src="hrbadge.js"></script>
+        <script src="./static/js/hrbadge.js"></script>
         <br>
       </div>
     </div>
@@ -108,7 +106,7 @@
               style="max-height: 200px; min-height: 200px;" 
               loading="lazy" class="rounded card-img-top" 
               alt="LGSM Logo"
-              src="/static/img/lgsm.jpg"
+              src="./static/img/lgsm.jpg"
             >
             <div class="card-body text-white bg-secondary">
               <h5 class="card-title">Web-LGSM</h5>
@@ -203,7 +201,7 @@
               style="max-height: 200px; min-height: 200px;"
               loading="lazy" class="rounded card-img-top"
               alt="Aum Logo"
-              src="/static/img/aum.png"
+              src="./static/img/aum.png"
             >
             <div class="card-body text-white bg-secondary">
               <h5 class="card-title">Ātman Webmail Client</h5>
@@ -253,7 +251,7 @@
             <img
               style="max-height: 200px; min-height: 200px;"
               loading="lazy" class="rounded card-img-top"
-              alt="Good Doggo!" src="/static/img/doggo.jpg"
+              alt="Good Doggo!" src="./static/img/doggo.jpg"
             >
             <div class="card-body text-white bg-secondary">
               <h5 class="card-title">Random Doggo Flask App</h5>
@@ -307,7 +305,7 @@
             <img
               style="max-height: 200px; min-height: 200px;"
               loading="lazy" class="rounded card-img-top"
-              alt="Perl Logo" src="/static/img/perl.jpg"
+              alt="Perl Logo" src="./static/img/perl.jpg"
             >
             <div class="card-body text-white bg-secondary">
               <h5 class="card-title">Binary Search Perl</h5>
@@ -327,7 +325,7 @@
             <img
               style="max-height: 200px; min-height: 200px;"
               loading="lazy" class="rounded card-img-top"
-              alt="Pandoc Logo" src="/static/img/pandoc.jpg"
+              alt="Pandoc Logo" src="./static/img/pandoc.jpg"
             >
             <div class="card-body text-white bg-secondary" >
               <h5 class="card-title">Pandoc Templating</h5>
@@ -368,16 +366,7 @@
   <?php include "./footer.html" ?>
 
   <!-- Bootstrap JS & Popper Bundle -->
-  <script
-     src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-     integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-     crossorigin="anonymous">
-  </script> 
-
-  <script
-     src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-     integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
-     crossorigin="anonymous">
-  </script>
+  <script src="./static/bootstrap-5.3.0-dist/popper.min.js"></script> 
+  <script src="./static/bootstrap-5.3.0-dist/js/bootstrap.min.js"></script>
 </body>
 </html>
