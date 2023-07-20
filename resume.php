@@ -17,7 +17,7 @@
   <!-- Nice Bootstrap CSS Navbar -->
   <?php include "./nav.html" ?>
 
-  <iframe src="resume.pdf" width="100%" height="1000px">
+  <iframe src="resume.pdf" style="width:100%; height:1000px">
   </iframe>
 
   <script

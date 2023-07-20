@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>John's Homepage</title>
-  <link rel="stylesheet" type="text/css" href="static/css/main.css" />
+  <link rel="stylesheet" type="text/css" href="static/css/main.css">
   <link
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -18,9 +18,9 @@
 
   <div class="py-2"></div>
 
-  <div id="basic-container" class="container-lg bg-dark text-white">
+  <div class="container-lg bg-dark text-white">
     <h3 class="pt-1">About Me</h3>
-    <img src="static/img/goodbing.png" alt="I have been a good bing :)"></img>
+    <img src="static/img/goodbing.png" alt="I have been a good bing :)">
     <br><br>
     <p>I'm a junior computer heretic, IT guy, tinkerer, bad programmer,
        and aspiring mad sea captain. Aargh, computers are but a fallback til me
@@ -34,7 +34,7 @@
     </p>
   </div>
 
-  <div id="basic-container" class="pt-1 container-lg bg-dark text-white">
+  <div class="pt-1 container-lg bg-dark text-white">
     <blockquote class="blockquote">
       <p>> Perl is like a thermos, it keeps cold things cold and warm things not impossible.</p>
     </blockquote>
@@ -46,7 +46,7 @@
   </div>
   <br>
 
-  <div id="basic-container" class="pt-1 container-lg bg-dark text-white">
+  <div class="pt-1 container-lg bg-dark text-white">
     <h3>Technologies I'm Familiar With</h3>
     <ul>
       <li>
@@ -97,16 +97,17 @@
   </div>
   <br>
 
-  <div id="basic-container" class="pt-1 container-lg bg-dark text-white">
+  <div class="pt-1 container-lg bg-dark text-white">
     <h3>Example Projects</h3>
 
     <div class="container px-4">
       <div class="row gx-5">
         <div class="col d-flex align-items-stretch">
-          <div class="card" style="width: 15rem;">
+          <div class="card my-2" style="width: 15rem;">
             <img 
               style="max-height: 200px; min-height: 200px;" 
-              loading="lazy" class="rounded" class="card-img-top" 
+              loading="lazy" class="rounded card-img-top" 
+              alt="LGSM Logo"
               src="/static/img/lgsm.jpg"
             >
             <div class="card-body text-white bg-secondary">
@@ -123,11 +124,12 @@
           </div>
         </div>
         <div class="col d-flex align-items-stretch">
-          <div class="card" style="width: 15rem;">
+          <div class="card my-2" style="width: 15rem;">
             <img
               style="max-height: 200px; min-height: 200px;"
-              loading="lazy" class="rounded" class="card-img-top"
-              src="https://raw.githubusercontent.com/BlueSquare23/ssh-map/master/ssh-map.png"
+              loading="lazy" class="rounded card-img-top"
+              alt="Graph of SSH KeyAuth Connected Nodes"
+              src="./static/img/ssh-map.png"
             >
             <div class="card-body text-white bg-secondary">
               <h5 class="card-title">SSH Key Network Mapper</h5>
@@ -145,15 +147,15 @@
       </div>
     </div>
 
-    <div class="p-2"></div>
     <div class="container px-4">
       <div class="row gx-5">
         <div class="col d-flex align-items-stretch">
-          <div class="card" style="width: 15rem;">
+          <div class="card my-2" style="width: 15rem;">
             <img 
               style="max-height: 200px; min-height: 200px;"
               loading="lazy" class="rounded card-img-top"
-              src="https://images-na.ssl-images-amazon.com/images/I/61-kdNZrX9L.png">
+              alt="Plex Logo"
+              src="./static/img/plex.png">
             <div class="card-body text-white bg-secondary">
               <h5 class="card-title">Plex CLI Perl Script</h5>
               <p class="card-text">
@@ -166,10 +168,11 @@
           </div>
         </div>
         <div class="col d-flex align-items-stretch">
-          <div class="card" style="width: 15rem;">
+          <div class="card my-2" style="width: 15rem;">
             <img
               style="max-height: 200px; min-height: 200px;"
               loading="lazy" class="rounded card-img-top"
+              alt="Rshell.sh Favicon"
               src="https://rshell.sh/static/img/favicon.ico"
             >
             <div class="card-body text-white bg-secondary">
@@ -192,14 +195,16 @@
       </div>
     </div>
 
-    <div class="p-2"></div>
     <div class="container px-4">
       <div class="row gx-5">
         <div class="col d-flex align-items-stretch">
-          <div class="card" style="width: 15rem;">
+          <div class="card my-2" style="width: 15rem;">
             <img
               style="max-height: 200px; min-height: 200px;"
-              loading="lazy" class="rounded card-img-top" src="/static/img/aum.png">
+              loading="lazy" class="rounded card-img-top"
+              alt="Aum Logo"
+              src="/static/img/aum.png"
+            >
             <div class="card-body text-white bg-secondary">
               <h5 class="card-title">Ātman Webmail Client</h5>
               <p class="card-text">
@@ -214,11 +219,12 @@
           </div>
         </div>
         <div class="col d-flex align-items-stretch">
-          <div class="card" style="width: 15rem;">
+          <div class="card my-2" style="width: 15rem;">
             <img
               style="max-height: 200px; min-height: 200px;"
               loading="lazy" class="rounded card-img-top"
-              src="https://monitor.bluesquare23.sh/static/img/servermonitor200px.png"
+              alt="Picture of Custom Server Monitor Dashboard"
+              src="./static/img/servermonitor200px.png"
             >
             <div class="card-body text-white bg-secondary">
               <h5 class="card-title">Homemade Server Monitor</h5>
@@ -240,14 +246,14 @@
       </div>
     </div>
 
-    <div class="p-2"></div>
     <div class="container px-4">
       <div class="row gx-5">
         <div class="col d-flex align-items-stretch">
-          <div class="card" style="width: 15rem;">
+          <div class="card my-2" style="width: 15rem;">
             <img
               style="max-height: 200px; min-height: 200px;"
-              loading="lazy" class="rounded card-img-top" src="/static/img/doggo.jpg"
+              loading="lazy" class="rounded card-img-top"
+              alt="Good Doggo!" src="/static/img/doggo.jpg"
             >
             <div class="card-body text-white bg-secondary">
               <h5 class="card-title">Random Doggo Flask App</h5>
@@ -267,11 +273,12 @@
           </div>
         </div>
         <div class="col d-flex align-items-stretch">
-          <div class="card" style="width: 15rem;">
+          <div class="card my-2" style="width: 15rem;">
             <img
               style="max-height: 200px; min-height: 200px;"
               loading="lazy" class="rounded card-img-top"
-              src="https://i.ytimg.com/vi/1vbKLqb0Lsw/hqdefault.jpg"
+              alt="Write & Run Anything Video Thumbnail"
+              src="./static/img/writeandrunthumb.jpg"
             >
             <div class="card-body text-white bg-secondary" >
               <h5 class="card-title">Write & Run Any Lang</h5>
@@ -293,14 +300,14 @@
       </div>
     </div>
 
-    <div class="p-2"></div>
     <div class="container px-4">
       <div class="row gx-5">
         <div class="col d-flex align-items-stretch">
-          <div class="card" style="width: 15rem;">
+          <div class="card my-2" style="width: 15rem;">
             <img
               style="max-height: 200px; min-height: 200px;"
-              loading="lazy" class="rounded card-img-top" src="/static/img/perl.jpg"
+              loading="lazy" class="rounded card-img-top"
+              alt="Perl Logo" src="/static/img/perl.jpg"
             >
             <div class="card-body text-white bg-secondary">
               <h5 class="card-title">Binary Search Perl</h5>
@@ -316,10 +323,12 @@
           </div>
         </div>
         <div class="col d-flex align-items-stretch">
-          <div class="card" style="width: 15rem;">
+          <div class="card my-2" style="width: 15rem;">
             <img
               style="max-height: 200px; min-height: 200px;"
-              loading="lazy" class="rounded card-img-top" src="/static/img/pandoc.jpg">
+              loading="lazy" class="rounded card-img-top"
+              alt="Pandoc Logo" src="/static/img/pandoc.jpg"
+            >
             <div class="card-body text-white bg-secondary" >
               <h5 class="card-title">Pandoc Templating</h5>
               <p class="card-text">
@@ -355,6 +364,9 @@
     onclick="window.scrollTo(0, 0);">/\ Top /\
   </button>
 
+  <!-- Nice Bootstrap Footer -->
+  <?php include "./footer.html" ?>
+
   <!-- Bootstrap JS & Popper Bundle -->
   <script
      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
@@ -367,8 +379,5 @@
      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
      crossorigin="anonymous">
   </script>
-
-  <!-- Nice Bootstrap Footer -->
-  <?php include "./footer.html" ?>
 </body>
 </html>
