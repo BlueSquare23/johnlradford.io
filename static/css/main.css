@@ -1,0 +1,14 @@
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+}
+#topBtn {
+  position: fixed;
+  right: 30px;
+  bottom: 20px;
+  font-size: 12px;
+  border-color: rgba(85, 85, 85, 0.2);
+  background-color: rgb(100,100,100);
+}
