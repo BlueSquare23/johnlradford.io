@@ -6,8 +6,10 @@
   <title>John's Homepage</title>
   <link rel="stylesheet" type="text/css" href="static/css/main.css">
   <link
-    rel="stylesheet" type="text/css"
-    href="static/bootstrap-5.3.0-dist/css/bootstrap.min.css">
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+    crossorigin="anonymous">
   <!-- Google Fonts VT323 -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,14 +24,17 @@
 
   <div class="container-lg bg-dark text-white">
     <h3 class="pt-1">About Me</h3>
-    <img src="./static/img/goodbing.png" alt="I have been a good bing :)">
-    <br><br>
-    <p>I'm a junior computer heretic, IT guy, tinkerer, bad programmer,
-       and aspiring mad sea captain. <i>Aargh, computers are but a fallback til me
-       vessle's seaworthy again!</i></p>
+    <a href="https://www.youtube.com/watch?v=MS5_cIwzkII"
+      target="_blank" rel="noopener noreferrer">
+      <img src="./static/img/goodbing.png" alt="I have been a good bing :)">
+    </a>
+    <br>
+    <p>I'm a junior computer heretic, IT professional, web guy, tinkerer, bad
+       programmer, and aspiring mad sea captain. <i>Aargh, computers are but a
+       fallback til me vessle's seaworthy again!</i></p>
     <p>I'm a big fan of the Unix / Linux world. I spend a lot of my time
        inside of a terminal window. I'm prolific scriptor who enjoys automating
-       computer task of all shapes and sizes.</p>
+       computing tasks of all shapes and sizes.</p>
     <p>My professional experience is primarily in support and security for web and
        email hosting services. Although, I also like to dabble with front and back end
        web development and offensive cyber security.
@@ -100,7 +105,7 @@
   <br>
 
   <div class="pt-1 container-lg bg-dark text-white">
-    <h3>Example Projects</h3>
+    <h3>Sample Projects</h3>
 
     <div class="container px-4">
       <div class="row gx-5">
@@ -348,7 +353,6 @@
       </div>
       <br>
     </div>
-
   </div>
 
   <!-- By Me A Coffee Script -->
