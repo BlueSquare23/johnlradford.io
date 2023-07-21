@@ -6,7 +6,10 @@
   <title>John's Resume</title>
   <link rel="stylesheet" href="./static/css/main.css">
   <link rel="stylesheet" href="./static/bootstrap-5.3.0-dist/css/bootstrap.min.css">
-
+  <!-- Google Fonts VT323 -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
 </head>
 
 <body style="background-color:black;">

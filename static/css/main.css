@@ -1,9 +1,13 @@
 html {
   height: 100%;
 }
+
 body {
   min-height: 100%;
+  font-family: 'VT323', monospace !important;
+  font-size: 1.25em !important;
 }
+
 #topBtn {
   position: fixed;
   left: 30px;
