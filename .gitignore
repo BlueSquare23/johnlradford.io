@@ -1,3 +1,5 @@
-cgi-bin
+php.ini
+php*cgi
+hits.txt
 blog
 bootstrap-*

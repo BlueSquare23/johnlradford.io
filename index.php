@@ -35,15 +35,27 @@
     <p>I'm a big fan of the Unix / Linux world. I spend a lot of my time
        inside of a terminal window. I'm prolific scriptor who enjoys automating
        computing tasks of all shapes and sizes.</p>
-    <p>My professional experience is primarily in support and security for web and
-       email hosting services. Although, I also like to dabble with front and back end
-       web development and offensive cyber security.
+    <p>My professional experience is primarily in support, security, and
+       systems administration for web and email hosting services. Although, I also
+       like to dabble with front and back end web development and offensive cyber
+       security.
     </p>
   </div>
 
-  <div class="pt-1 container-lg bg-dark text-white">
+  <div class="pt-1 mb-3 container-lg bg-dark text-white">
+    <div class="row">
+      <div class="col">
+        <?php
+          $hits = file_get_contents("https://johnlradford.io/cgi-bin/hits.cgi",0);
+          echo "<h3>Hit Counter: $hits</h3>";
+        ?>
+      </div>
+    </div>
+  </div>
+
+  <div class="pt-1 mb-3 container-lg bg-dark text-white">
     <blockquote class="blockquote">
-      <p>> Perl is like a thermos, it keeps cold things cold and warm things not impossible.</p>
+      <h4>> Perl is like a thermos, it keeps cold things cold and warm things not impossible.</h4>
     </blockquote>
     <div class="credit" style="text-align:right;">
       <cite>
@@ -51,7 +63,6 @@
       </cite>
     </div>
   </div>
-  <br>
 
   <div class="pt-1 container-lg bg-dark text-white">
     <h3>Technologies I'm Familiar With</h3>
@@ -89,7 +100,7 @@
     </ul>
   </div>
 
-  <div class="pt-1 container container-lg bg-dark text-white">
+  <div class="pt-1 mb-3 container container-lg bg-dark text-white">
     <div class="row">
       <!-- Probably not needed -->
       <h3>Badges</h3>
@@ -102,7 +113,6 @@
       </div>
     </div>
   </div>
-  <br>
 
   <div class="pt-1 container-lg bg-dark text-white">
     <h3>Sample Projects</h3>

@@ -1,2 +1,3 @@
 RewriteEngine On
 RewriteRule .git - [F,L]
+RewriteRule hits.txt - [F,L]
