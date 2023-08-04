@@ -27,7 +27,7 @@ open(FH, '<', $hits_file)
 my $hits = <FH>;
 close FH;
 
-$hits++ or die("Cannot increment hits!");
+$hits++;
 
 open(FH, '>', $hits_file)
     or die("Couldn't open file '$hits_file': $!");
