@@ -33,6 +33,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+    <!-- ReCAPTCHA v2 -->
+    <script src='https://www.google.com/recaptcha/api.js'></script>
   </head>
   
   <body style="background-color:black;">
@@ -40,7 +43,8 @@
     <?php include "./nav.html" ?>
   
     <main>
-      <div class="mt-3 container-lg bg-dark text-white">
+      <!-- My Bio -->
+      <div class="mt-3 container-lg bg-dark text-white border border-secondary border-2 rounded">
         <div class="row">
           <div class="col">
             <h3 class="pt-1">About Me</h3>
@@ -75,7 +79,8 @@
         </div>
       </div>
 
-      <div class="pt-1 my-3 container-lg bg-dark text-white">
+      <!-- Hit Counter -->
+      <div class="pt-1 my-3 container-lg bg-dark text-white border border-secondary border-2 rounded">
         <div class="row">
           <div class="col">
             <?php
@@ -89,7 +94,8 @@
         </div>
       </div>
   
-      <div class="pt-1 mb-3 container-lg bg-dark text-white">
+      <!-- Perl Quote -->
+      <div class="pt-1 mb-3 container-lg bg-dark text-white border border-secondary border-2 rounded">
         <blockquote class="blockquote">
           <h4>> Perl is like a thermos, it keeps cold things cold and warm things not impossible.</h4>
         </blockquote>
@@ -100,7 +106,8 @@
         </div>
       </div>
   
-      <div class="pt-1 container-lg bg-dark text-white">
+      <!-- Technical Expierence -->
+      <div class="pt-1 container-lg bg-dark text-white border border-secondary border-2 rounded">
         <h3>Technologies I'm Familiar With</h3>
         <ul>
           <li>
@@ -139,9 +146,9 @@
         </ul>
       </div>
   
-      <div class="pt-1 mb-3 container container-lg bg-dark text-white">
+      <!-- Badges, probably not needed -->
+      <div class="pt-1 my-3 container container-lg bg-dark text-white border border-secondary border-2 rounded">
         <div class="row">
-          <!-- Probably not needed -->
           <h3>Badges</h3>
           <div class="col">
             <script src="https://www.hackthebox.eu/badge/381749"></script>
@@ -153,7 +160,8 @@
         </div>
       </div>
 
-      <div class="pt-1 my-3 container-lg bg-dark text-white">
+      <!-- My FTP Site -->
+      <div class="pt-1 my-3 container-lg bg-dark text-white border border-secondary border-2 rounded">
         <div class="row">
           <div class="col">
             <h3>My FTP Site
@@ -197,7 +205,8 @@
         </div>
       </div>
   
-      <div class="pt-1 container-lg bg-dark text-white">
+      <!-- Sample Projects -->
+      <div class="pt-1 my-3 container-lg bg-dark text-white border border-secondary border-2 rounded">
         <h3>Sample Projects</h3>
   
         <div class="container px-4">
@@ -448,15 +457,48 @@
           <br>
         </div>
       </div>
+
+      <!-- Guestbook -->
+      <div class="pt-1 my-3 container-lg bg-dark text-white border border-secondary border-2 rounded">
+        <div class="row">
+          <div class="col my-1">
+            <h3>Sign My Guestbook!</h3>
+            <form action="./cgi-bin/guestbook.cgi" method="POST">
+              <div class="form-group">
+                <label for="fullname">Full Name:</label>
+                <input class="form-control" type="text" id="fullname" name="fullname" required>
+              </div>
+              <div class="pb-2 form-group">
+                <label for="message">Type Your Message Here!</label>
+                <textarea class="form-control" id="message" name="message" rows="4" cols="50" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary mb-3" style="float: right;">Sign Here</button>
+              <!-- ReCAPTCHA -->
+              <div class="g-recaptcha mb-3" data-sitekey="6Ld48YInAAAAAP_rjAzv6yiXrC79Zrk1VerB9GL7"></div>
+            </form>
+            <br>
+          </div>
+          <div class="col my-1">
+            <h3>Previous Signatures:</h3>
+            <!-- Use PHP to read contents of guestbook.txt into a textarea -->
+            <?php include "./guestbook.php" ?>
+          </div>
+        </div>
+      </div>
     </main>
-  
+
+    <script>
+      const textarea = document.getElementById('guestbook');
+      textarea.scrollTop = textarea.scrollHeight;
+    </script>
+
     <!-- By Me A Coffee Script -->
     <script 
-       data-name="BMC-Widget" data-cfasync="false"
-       src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
-       data-id="bluesquare23" data-description="Support me on Buy me a coffee!"
-       data-message="Wanna buy me a coffee?" data-color="#5F7FFF"
-       data-position="Right" data-x_margin="18" data-y_margin="18">
+      data-name="BMC-Widget" data-cfasync="false"
+      src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
+      data-id="bluesquare23" data-description="Support me on Buy me a coffee!"
+      data-message="Wanna buy me a coffee?" data-color="#5F7FFF"
+      data-position="Right" data-x_margin="18" data-y_margin="18">
     </script>
   
     <button 

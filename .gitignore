@@ -1,5 +1,7 @@
+.env
 php.ini
 php*cgi
 hits.txt
+guestbook.txt
 blog
 bootstrap-*
