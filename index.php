@@ -46,7 +46,7 @@
             <h3 class="pt-1">About Me</h3>
             <a href="https://youtu.be/Gmp1o9pkync?t=168"
               target="_blank" rel="noopener noreferrer">
-              <img src="./static/img/goodbing.png" alt="I have been a good bing :)">
+              <img class="mb-1" src="./static/img/goodbing.png" alt="I have been a good bing :)">
             </a>
             <br>
             <p>I'm a junior computer heretic, IT professional, web guy, tinkerer, bad
@@ -60,6 +60,7 @@
                dabble with front and back end web development and offensive cyber
                security.
             </p>
+            <hr style="color: white;">
             <h4>My PGP Public Key:
               <a
                 href="pgp_key.txt" id="pgp-key-icon" title="John's PGP Key" target="_blank" rel="noopener noreferrer" 
@@ -79,6 +80,9 @@
           <div class="col">
             <?php
               $hits = file_get_contents("https://johnlradford.io/cgi-bin/hits.cgi",0);
+              // just in case...
+              $hits = escapeshellcmd($hits);
+              $hits = htmlspecialchars($hits);
               echo "<h3>Hit Counter: $hits</h3>";
             ?>
           </div>
@@ -104,6 +108,9 @@
           </li>
           <li>
             Server Technologies: Apache, Nginx, Postfix, Dovecot, MySQL
+          </li>
+          <li>
+            Protocols: TCP/IP, HTTP(S), FTP, SMTP, IMAP, POP3, NTP, SSH, Telnet
           </li>
           <li>
             Programming Languages: C, Python, Perl, Bash, Java, PHP, JavaScript, TypeScript
@@ -142,6 +149,50 @@
           <div class="col">
             <script src="./static/js/hrbadge.js"></script>
             <br>
+          </div>
+        </div>
+      </div>
+
+      <div class="pt-1 my-3 container-lg bg-dark text-white">
+        <div class="row">
+          <div class="col">
+            <h3>My FTP Site
+              <a href="ftp://anonymous:@ftp.bluesquare23.sh">
+                <img style="float:right;" src="./static/img/ftp.png" alt="FTP icon">
+              </a>
+            </h3>
+            <h4>FTP Settings</h4>
+            <ul>
+              <li>
+                HOSTNAME: ftp.bluesquare23.sh
+              </li>
+              <li>
+                USERNAME: anonymous
+              </li>
+              <li>
+                PASSWORD: (none, leave empty)
+              </li>
+              <li>
+                PORT: 21
+              </li>
+            </ul>
+            <p>
+              Feel free to browse my files there! You can also upload files to the write-only
+              <i>incoming</i> directory in order to send them to me. Useful for files larger
+              than what can normlly be sent via Email. If the <i>incoming</i> dir is missing
+              you'll need to follow the steps in the <i>reload.txt</i> file to manually
+              reload it. The <i>incoming</i> dir will be automatically archived shortly after
+              anything is uploaded to it. 
+            </p>
+            <p>
+              If you use FTPS you'll need to ignore the certificate warning when connecting.
+              The ProFTPd server is using a certificate issued under a different domain name
+              than ftp.bluesquare23.sh. However, your connection should still be encrypted.
+
+              You can use my public PGP key to encrypt any files before sending them if for
+              some reason you're limited to only using plain old FTP and you'd like to
+              maintain encryption.
+            </p>
           </div>
         </div>
       </div>
@@ -208,9 +259,10 @@
                 <div class="card-body text-white bg-secondary">
                   <h5 class="card-title">Plex CLI Perl Script</h5>
                   <p class="card-text">
-                    A very basic perl script for interacting with your plex server from the command line.
+                    A perl script for interacting with your plex server from the command line. 
+                    Options: refresh, list-libraries, and list-playing.
                   </p>
-                  <a
+                  <a target="_blank" rel="noopener noreferrer" class="btn btn-primary"
                     href="https://github.com/BlueSquare23/Learning_Perl/blob/master/MiscPerlScripts/plex-cli.pl">Source
                   </a>
                 </div>
