@@ -33,8 +33,8 @@ if ($query->param()) {
     &verify_captcha($captcha_response);
 
     # Strip out bad chars.
-    $fullname =~ s/[\$<>#@~&*()\[\];:?^`\\\/]+//g;
-    $message =~ s/[\$<>#@~&*()\[\];:?^`\\\/]+//g;
+    $fullname =~ s/[\$<>#@~&*()\[\];:^`\\\/]+//g;
+    $message =~ s/[\$<>#@~&*()\[\];:^`\\\/]+//g;
 
     # Writing to guestbook file.
     open(FH, '>>', $guestbook_file)
@@ -79,6 +79,7 @@ sub js_redirect_home {
             )
         ]
     );
+    exit 0;
 }
 
 sub verify_captcha {
