@@ -147,15 +147,14 @@
       </div>
   
       <!-- Badges, probably not needed -->
-      <div class="pt-1 my-3 container container-lg bg-dark text-white border border-secondary border-2 rounded">
-        <div class="row">
+      <div class="pt-1 my-3 container-lg bg-dark text-white border border-secondary border-2 rounded">
+        <div class="row mb-3">
           <h3>Badges</h3>
-          <div class="col">
+          <div class="col my-1">
             <script src="https://www.hackthebox.eu/badge/381749"></script>
           </div>
-          <div class="col">
+          <div class="col my-1">
             <script src="./static/js/hrbadge.js"></script>
-            <br>
           </div>
         </div>
       </div>

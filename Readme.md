@@ -4,27 +4,42 @@ This repository contains the files for my personal website,
 
 https://johnlradford.io/
 
-## Structure, Site Map
+## Overview / Site Layout
 
-Currently there's not too much to the site. Just some HTML file and an old
-WordPress blog (Not tracked).
+The site is mainly one page with an old WordPress site down in the blog
+directory (Not tracked).
+
+On the site you'll find my bio, my resume, my public PGP key, links to my
+github, information about my FTP site, a hit counter, a small portfolio of
+sample projects I've worked on, and a guestbook. 
 
 ```
-  |-- Readme.md
-  |-- blog/
-  |-- cgi-bin/
-  |-- favicon.ico
-  |-- hrbadge.js
-  |-- index.html
-  |-- resume.html
-  |-- resume.pdf
-  |-- resume.tex
-  `-- static/
-      |-- css/
-      |   `-- main.css
-      `-- img/
+|-- Readme.md
+|-- blog/...
+|-- cgi-bin/
+|   |-- guestbook.cgi
+|   `-- hits.cgi
+|-- favicon.ico
+|-- footer.html
+|-- guestbook.php
+|-- guestbook.txt
+|-- hits.txt
+|-- index.php
+|-- nav.html
+|-- pgp_key.txt
+|-- resume.pdf
+|-- resume.php
+|-- resume.tex
+`-- static/
+    |-- css/
+    |   `-- main.css
+    |-- img/...
+    `-- js/
+        |-- hrbadge.js
+        `-- pgp-key-hovertext.js
 ```
 
-Its mainly a one page site with links to my resume, github, and a bunch of
-sample projects I've worked on.
+Feel free to stop by my home page today!
+
+[johnlradford.io](https://johnlradford.io/)
 
