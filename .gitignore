@@ -4,4 +4,5 @@ php*cgi
 hits.txt
 guestbook.txt
 blog
-bootstrap-*
+.todo_key.php
+todos.txt*

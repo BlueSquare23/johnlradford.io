@@ -2,3 +2,5 @@ RewriteEngine On
 RewriteRule .git - [F,L]
 RewriteRule .env - [F,L]
 RewriteRule hits.txt - [F,L]
+RewriteRule guestbook.txt - [F,L]
+RewriteRule todo.*txt - [F,L]
