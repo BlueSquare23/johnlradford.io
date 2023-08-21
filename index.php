@@ -147,6 +147,7 @@
       </div>
   
       <!-- Badges, probably not needed -->
+<!--
       <div class="pt-1 my-3 container-lg bg-dark text-white border border-secondary border-2 rounded">
         <div class="row mb-3">
           <h3>Badges</h3>
@@ -158,6 +159,7 @@
           </div>
         </div>
       </div>
+ -->
 
       <!-- My FTP Site -->
       <div class="pt-1 my-3 container-lg bg-dark text-white border border-secondary border-2 rounded">
@@ -465,15 +467,16 @@
             <form action="./cgi-bin/guestbook.cgi" method="POST">
               <div class="form-group">
                 <label for="fullname">Full Name:</label>
-                <input class="form-control" type="text" id="fullname" name="fullname" required>
+                <input class="form-control" type="text" id="fullname" name="fullname" maxlength="50" required>
               </div>
               <div class="pb-2 form-group">
                 <label for="message">Type Your Message Here!</label>
-                <textarea class="form-control" id="message" name="message" rows="4" cols="50" required></textarea>
+                <span id="char_count" style="float: right;">500/500</span>
+                <textarea class="form-control" id="message" name="message" rows="4" cols="50" maxlength="500" required></textarea>
               </div>
-              <button type="submit" class="btn btn-primary mb-3" style="float: right;">Sign Here</button>
               <!-- ReCAPTCHA -->
               <div class="g-recaptcha mb-3" data-sitekey="6Ld48YInAAAAAP_rjAzv6yiXrC79Zrk1VerB9GL7"></div>
+              <button type="submit" class="btn btn-primary mb-3" style="float: right;">Sign Here</button>
             </form>
             <br>
           </div>
@@ -491,6 +494,9 @@
       textarea.scrollTop = textarea.scrollHeight;
     </script>
 
+    <!-- Guestbook word number script -->
+    <script src="./static/js/guestbook-char-count.js"></script>
+
     <!-- By Me A Coffee Script -->
     <script 
       data-name="BMC-Widget" data-cfasync="false"
@@ -501,7 +507,7 @@
     </script>
   
     <button 
-      id="topBtn" type="button" class="btn btn-primary" 
+      id="topBtn" type="button" class="btn btn-primary d-none d-sm-block" 
       style="color: white; text-decoration:underline;"
       onclick="window.scrollTo(0, 0);">/\ Top /\
     </button>

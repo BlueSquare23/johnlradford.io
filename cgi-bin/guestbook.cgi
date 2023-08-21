@@ -32,6 +32,9 @@ if ($query->param()) {
 
     &verify_captcha($captcha_response);
 
+    &js_redirect_home("Name exceeds 50 characters!") if ( length $fullname > 50 );
+    &js_redirect_home("Message exceeds 1000 characters!") if ( length $message > 500 );
+
     # Strip out bad chars.
     $fullname =~ s/[\$<>#@~&*()\[\];:^`\\\/]+//g;
     $message =~ s/[\$<>#@~&*()\[\];:^`\\\/]+//g;
