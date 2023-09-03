@@ -236,7 +236,7 @@
                     Turing award lecture, "Reflections on Trusting Trust."
                   </p>
                   <a 
-                    href="https://github.com/BlueSquare23/web-lgsm" 
+                    href="https://github.com/BlueSquare23/Learning_Perl/blob/master/MiscPerlScripts/quine.pl" 
                     target="_blank" rel="noopener noreferrer" 
                     class="btn btn-primary">Source
                   </a>
@@ -535,7 +535,7 @@
             <h3>Sign My Guestbook!</h3>
             <form action="./cgi-bin/guestbook.cgi" method="POST">
               <div class="form-group">
-                <label for="fullname">Full Name:</label>
+                <label for="fullname">Your Name:</label>
                 <input class="form-control" type="text" id="fullname" name="fullname" maxlength="50" required>
               </div>
               <div class="pb-2 form-group">
@@ -565,7 +565,7 @@
     </script>
 
     <!-- Guestbook word number script -->
-    <script src="./static/js/guestbook-char-count.js"></script>
+    <script src="./static/js/char-count.js"></script>
 
     <!-- By Me A Coffee Script -->
     <script 
