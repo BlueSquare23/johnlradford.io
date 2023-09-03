@@ -66,8 +66,16 @@
             </p>
             <hr style="color: white;">
             <h4>My PGP Public Key:
-              <a
-                href="pgp_key.txt" id="pgp-key-icon" title="John's PGP Key" target="_blank" rel="noopener noreferrer" 
+              <img onclick="copyFingerprint()" style="cursor: pointer;" alt="pgp fingerprint icon"
+                title="Copy Fingerprint: C39C7BA01EE2894B6BA8563A5A9B2754F7352546" src="./static/img/fingerprint.png">
+              <script>
+                function copyFingerprint() {
+                  var fingerprint = "C39C7BA01EE2894B6BA8563A5A9B2754F7352546";
+                  navigator.clipboard.writeText(fingerprint);
+                  alert("Text Copied!" + "\n\n\t" + fingerprint);
+                }
+              </script>
+              <a href="pgp_key.txt" id="pgp-key-icon" title="John's PGP Key" target="_blank" rel="noopener noreferrer" 
                 style="text-decoration: none;">
                 <img src="./static/img/key.png" alt="pgp key icon">
               </a>
@@ -84,6 +92,7 @@
         <div class="row">
           <div class="col">
             <?php
+              ini_set('allow_url_fopen','1');
               $hits = file_get_contents("https://johnlradford.io/cgi-bin/hits.cgi",0);
               // just in case...
               $hits = escapeshellcmd($hits);
@@ -137,9 +146,9 @@
           <li>
             Virtualization / Containerization: Docker, QEMU/KVM, VirtualBox
           </li>
-      	  <li>
-      	    Deployment: Ansible, Puppet
-      	  </li>
+          <li>
+            Deployment: Ansible, Puppet
+          </li>
           <li>
             Game Servers: Gmod - TTT, Minecraft, Anything LGSM
           </li>
@@ -209,6 +218,56 @@
       <!-- Sample Projects -->
       <div class="pt-1 my-3 container-lg bg-dark text-white border border-secondary border-2 rounded">
         <h3>Sample Projects</h3>
+
+        <div class="container px-4">
+          <div class="row gx-5">
+            <div class="col d-flex align-items-stretch">
+              <div class="card my-2" style="width: 15rem;">
+                <img 
+                  style="max-height: 200px; min-height: 200px;" 
+                  loading="lazy" class="rounded card-img-top" 
+                  alt="Perl Logo Ouroboros Image"
+                  src="./static/img/perlouroboros.png"
+                >
+                <div class="card-body text-white bg-secondary">
+                  <h5 class="card-title">Perl Quine</h5>
+                  <p class="card-text">
+                    A perl script that prints its own source. Insipired by Ken Thomson's 
+                    Turing award lecture, "Reflections on Trusting Trust."
+                  </p>
+                  <a 
+                    href="https://github.com/BlueSquare23/web-lgsm" 
+                    target="_blank" rel="noopener noreferrer" 
+                    class="btn btn-primary">Source
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col d-flex align-items-stretch">
+              <div class="card my-2" style="width: 15rem;">
+                <img
+                  style="max-height: 200px; min-height: 200px;"
+                  loading="lazy" class="rounded card-img-top"
+                  alt="Distributed Fractals Generation"
+                  target="_blank" rel="noopener noreferrer" 
+                  src="./static/img/fractal.jpg"
+                >
+                <div class="card-body text-white bg-secondary">
+                  <h5 class="card-title">Distributed Fractal Generation W/ Java</h5>
+                  <p class="card-text">
+                    Created a number of 4K Mandelbrot timelapses using my
+                    buddies custom distributed fractal generator java app.
+                  </p>
+                  <a
+                    href="https://youtu.be/xRdRRjMV9Gg"
+                    target="_blank" rel="noopener noreferrer" 
+                    class="btn btn-primary">Video
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
   
         <div class="container px-4">
           <div class="row gx-5">
@@ -228,6 +287,7 @@
                   </p>
                   <a 
                     href="https://github.com/BlueSquare23/web-lgsm" 
+                    target="_blank" rel="noopener noreferrer" 
                     class="btn btn-primary">Source
                   </a>
                 </div>
@@ -249,6 +309,7 @@
                   </p>
                   <a
                     href="https://github.com/BlueSquare23/ssh-map"
+                    target="_blank" rel="noopener noreferrer" 
                     class="btn btn-primary">Source
                   </a>
                 </div>
@@ -294,10 +355,12 @@
                   </p>
                   <a
                     href="https://rshell.sh/" target="_blank" rel="noopener noreferrer" 
+                    target="_blank" rel="noopener noreferrer" 
                     class="btn btn-primary">Live Site
                   </a>
                   <a
                     href="https://github.com/BlueSquare23/Rshell.sh"
+                    target="_blank" rel="noopener noreferrer" 
                     class="btn btn-primary">Source
                   </a>
                 </div>
@@ -324,6 +387,7 @@
                   </p>
                   <a
                     href="https://github.com/BlueSquare23/Atman_Mail"
+                    target="_blank" rel="noopener noreferrer" 
                     class="btn btn-primary">Source
                   </a>
                 </div>
@@ -349,6 +413,7 @@
                   </a>
                   <a
                     href="https://github.com/BlueSquare23/ServerMonitor"
+                    target="_blank" rel="noopener noreferrer" 
                     class="btn btn-primary">Source
                   </a>
                 </div>
@@ -378,6 +443,7 @@
                   </a>
                   <a 
                     href="https://github.com/BlueSquare23/doggo.thefamu.net"
+                    target="_blank" rel="noopener noreferrer" 
                     class="btn btn-primary">Source
                   </a>
                  </div>
@@ -403,6 +469,7 @@
                   </a>
                   <a 
                     href="https://github.com/BlueSquare23/WriteAndRun"
+                    target="_blank" rel="noopener noreferrer" 
                     class="btn btn-primary">Source
                   </a>
                 </div>
@@ -428,6 +495,7 @@
                   </p>
                   <a
                     href="https://github.com/BlueSquare23/Learning_Perl/blob/master/Exercises/binary_search.pl"
+                    target="_blank" rel="noopener noreferrer" 
                     class="btn btn-primary">Source
                   </a>
                 </div>
@@ -449,6 +517,7 @@
                   </p>
                   <a
                     href="https://github.com/BlueSquare23/Learning_Markdown/blob/master/md2html_pandoc.md"
+                    target="_blank" rel="noopener noreferrer" 
                     class="btn btn-primary">Source
                   </a>
                 </div>
@@ -471,12 +540,12 @@
               </div>
               <div class="pb-2 form-group">
                 <label for="message">Type Your Message Here!</label>
-                <span id="char_count" style="float: right;">500/500</span>
+                <span id="char_count" class="float-end">500/500</span>
                 <textarea class="form-control" id="message" name="message" rows="4" cols="50" maxlength="500" required></textarea>
               </div>
+              <button type="submit" class="btn btn-primary mb-3 float-end">Sign Here</button>
               <!-- ReCAPTCHA -->
-              <div class="g-recaptcha mb-3" data-sitekey="6Ld48YInAAAAAP_rjAzv6yiXrC79Zrk1VerB9GL7"></div>
-              <button type="submit" class="btn btn-primary mb-3" style="float: right;">Sign Here</button>
+              <div class="g-recaptcha mb-3" data-sitekey="6Ld48YInAAAAAP_rjAzv6yiXrC79Zrk1VerB9GL7"></div> 
             </form>
             <br>
           </div>
@@ -489,6 +558,7 @@
       </div>
     </main>
 
+    <!-- Scroll to Bottom of Guestbook -->
     <script>
       const textarea = document.getElementById('guestbook');
       textarea.scrollTop = textarea.scrollHeight;
