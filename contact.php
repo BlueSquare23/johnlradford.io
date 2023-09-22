@@ -44,7 +44,9 @@
   
     <main>
       <div class="pt-1 my-3 container bg-dark text-white border border-secondary border-2 rounded">
-        <h1>📧 Contact John!</h1>
+        <center>
+          <h1>📧 Contact John!</h1>
+        </center>
       </div>
 
       <!-- Contact Form -->
@@ -69,6 +71,7 @@
             <br>
           </div>
         </div>
+        <img class="float-end py-1" src="./static/img/email3.gif" alt="Email Marquee Gif">
         <h3>Or Email Me Directly</h3>
         <?php include "./mailaddr.html"?>
       </div>

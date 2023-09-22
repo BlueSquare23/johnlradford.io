@@ -3,6 +3,8 @@ html {
 }
 
 body {
+  background-image: url("../img/starstwinkle.gif");
+  background-repeat: repeat;
   min-height: 100%;
   font-family: 'VT323', monospace !important;
   font-size: 1.25em !important;

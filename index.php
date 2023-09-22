@@ -47,11 +47,22 @@
       <div class="mt-3 container-lg bg-dark text-white border border-secondary border-2 rounded">
         <div class="row">
           <div class="col">
-            <h3 class="pt-1">About Me</h3>
-            <a href="https://youtu.be/Gmp1o9pkync?t=168"
-              target="_blank" rel="noopener noreferrer">
-              <img class="mb-1" src="./static/img/goodbing.png" alt="I have been a good bing :)">
+            <a class="float-end" href="./teapot/" style="text-decoration: none;" title="Teapot">
+              <img style="cursor: pointer;" class="img-fluid" alt="418 teapot" title="I'm a teapot" src="./static/img/teapot.png">
             </a>
+            <h3 class="pt-1">About Me</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="d-flex justify-content-center">
+              <?php include "./me.html" ?> 
+            </div>
+            <div class="d-flex justify-content-center">
+              <a href="https://youtu.be/Gmp1o9pkync?t=168" target="_blank" rel="noopener noreferrer">
+                <img class="mb-1 pt-1 img-fluid" src="./static/img/goodbing.png" alt="I have been a good bing :)">
+              </a>
+            </div>
             <br>
             <p>I'm a junior computer heretic, IT professional, web guy, tinkerer, bad
                programmer, and aspiring mad sea captain. <i>Aargh, computers are but a
@@ -91,14 +102,18 @@
       <div class="pt-1 my-3 container-lg bg-dark text-white border border-secondary border-2 rounded">
         <div class="row">
           <div class="col">
-            <?php
-              ini_set('allow_url_fopen','1');
-              $hits = file_get_contents("https://johnlradford.io/cgi-bin/hits.cgi",0);
-              // just in case...
-              $hits = escapeshellcmd($hits);
-              $hits = htmlspecialchars($hits);
-              echo "<h3>Hit Counter: $hits</h3>";
-            ?>
+            <center>
+            <img style="width:100%;" class="img-fluid" src="./static/img/underconstruction.gif" alt="">
+            <hr style="color: white;">
+              <?php
+                ini_set('allow_url_fopen','1');
+                $hits = file_get_contents("https://johnlradford.io/cgi-bin/hits.cgi",0);
+                // just in case...
+                $hits = escapeshellcmd($hits);
+                $hits = htmlspecialchars($hits);
+                echo "<h3>Hit Counter: $hits</h3>";
+              ?>
+            </center>
           </div>
         </div>
       </div>
@@ -169,6 +184,48 @@
         </div>
       </div>
  -->
+      <!-- Free CGI's -->
+      <div class="pt-1 my-3 container-lg bg-dark text-white border border-secondary border-2 rounded">
+        <div class="row">
+          <div class="col pt-3">
+            <center>
+              <a href="https://github.com/BlueSquare23/johnlradford.io/tree/master/cgi-bin" target="_blank" rel="noopener noreferrer">
+                <img src="./static/img/free-cgis.gif" class="img-fluid" alt="free cgis banner gif">
+                <br>
+                <img src="./static/img/arrows.gif" class="img-fluid" alt="green arrows pointing inward gif">
+              </a>
+            </center>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm">
+          </div>
+          <div class="col-lg-6 py-3">
+            <ul class="list-group">
+              <li class="list-group-item" style="background-image: url('static/img/stars-seizure.gif'); background-position: center top;">
+                <center>
+                  <a class="nav-link" href="https://raw.githubusercontent.com/BlueSquare23/johnlradford.io/master/cgi-bin/contact.cgi" 
+                    target="_blank" rel="noopener noreferrer">Contact CGI</a>
+                </center>
+              </li>
+              <li class="list-group-item" style="background-image: url('static/img/stars-seizure.gif'); background-position: center center;">
+                <center>
+                  <a class="nav-link" href="https://raw.githubusercontent.com/BlueSquare23/johnlradford.io/master/cgi-bin/guestbook.cgi" 
+                    target="_blank" rel="noopener noreferrer">Guestbook CGI</a>
+                </center>
+              </li>
+              <li class="list-group-item" style="background-image: url('static/img/stars-seizure.gif'); background-position: center bottom;">
+                <center>
+                  <a class="nav-link" href="https://raw.githubusercontent.com/BlueSquare23/johnlradford.io/master/cgi-bin/hits.cgi" 
+                    target="_blank" rel="noopener noreferrer">Hit Counter CGI</a>
+               </center>
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm">
+          </div>
+        </div>
+      </div>
 
       <!-- My FTP Site -->
       <div class="pt-1 my-3 container-lg bg-dark text-white border border-secondary border-2 rounded">
@@ -219,7 +276,7 @@
       <div class="pt-1 my-3 container-lg bg-dark text-white border border-secondary border-2 rounded">
         <h3>Sample Projects</h3>
 
-        <div class="container px-4">
+        <div class="container d-flex justify-content-evenly">
           <div class="row gx-5">
             <div class="col d-flex align-items-stretch">
               <div class="card my-2" style="width: 15rem;">
@@ -243,20 +300,21 @@
                 </div>
               </div>
             </div>
+            <div class="col">
+            </div>
             <div class="col d-flex align-items-stretch">
               <div class="card my-2" style="width: 15rem;">
                 <img
                   style="max-height: 200px; min-height: 200px;"
                   loading="lazy" class="rounded card-img-top"
                   alt="Distributed Fractals Generation"
-                  target="_blank" rel="noopener noreferrer" 
                   src="./static/img/fractal.jpg"
                 >
                 <div class="card-body text-white bg-secondary">
                   <h5 class="card-title">Distributed Fractal Generation W/ Java</h5>
                   <p class="card-text">
                     Created a number of 4K Mandelbrot timelapses using my
-                    buddies custom distributed fractal generator java app.
+                    friends custom distributed fractal generator java app.
                   </p>
                   <a
                     href="https://youtu.be/xRdRRjMV9Gg"
@@ -269,7 +327,7 @@
           </div>
         </div>
   
-        <div class="container px-4">
+        <div class="container d-flex justify-content-evenly">
           <div class="row gx-5">
             <div class="col d-flex align-items-stretch">
               <div class="card my-2" style="width: 15rem;">
@@ -292,6 +350,8 @@
                   </a>
                 </div>
               </div>
+            </div>
+            <div class="col">
             </div>
             <div class="col d-flex align-items-stretch">
               <div class="card my-2" style="width: 15rem;">
@@ -318,7 +378,7 @@
           </div>
         </div>
   
-        <div class="container px-4">
+        <div class="container d-flex justify-content-evenly">
           <div class="row gx-5">
             <div class="col d-flex align-items-stretch">
               <div class="card my-2" style="width: 15rem;">
@@ -339,6 +399,8 @@
                 </div>
               </div>
             </div>
+            <div class="col">
+            </div>
             <div class="col d-flex align-items-stretch">
               <div class="card my-2" style="width: 15rem;">
                 <img
@@ -355,7 +417,6 @@
                   </p>
                   <a
                     href="https://rshell.sh/" target="_blank" rel="noopener noreferrer" 
-                    target="_blank" rel="noopener noreferrer" 
                     class="btn btn-primary">Live Site
                   </a>
                   <a
@@ -369,7 +430,7 @@
           </div>
         </div>
   
-        <div class="container px-4">
+        <div class="container d-flex justify-content-evenly">
           <div class="row gx-5">
             <div class="col d-flex align-items-stretch">
               <div class="card my-2" style="width: 15rem;">
@@ -392,6 +453,8 @@
                   </a>
                 </div>
               </div>
+            </div>
+            <div class="col">
             </div>
             <div class="col d-flex align-items-stretch">
               <div class="card my-2" style="width: 15rem;">
@@ -422,7 +485,7 @@
           </div>
         </div>
   
-        <div class="container px-4">
+        <div class="container d-flex justify-content-evenly">
           <div class="row gx-5">
             <div class="col d-flex align-items-stretch">
               <div class="card my-2" style="width: 15rem;">
@@ -448,6 +511,8 @@
                   </a>
                  </div>
               </div>
+            </div>
+            <div class="col">
             </div>
             <div class="col d-flex align-items-stretch">
               <div class="card my-2" style="width: 15rem;">
@@ -478,7 +543,7 @@
           </div>
         </div>
   
-        <div class="container px-4">
+        <div class="container pb-3 d-flex justify-content-evenly">
           <div class="row gx-5">
             <div class="col d-flex align-items-stretch">
               <div class="card my-2" style="width: 15rem;">
@@ -500,6 +565,8 @@
                   </a>
                 </div>
               </div>
+            </div>
+            <div class="col">
             </div>
             <div class="col d-flex align-items-stretch">
               <div class="card my-2" style="width: 15rem;">
@@ -524,7 +591,6 @@
               </div>
             </div>
           </div>
-          <br>
         </div>
       </div>
 
