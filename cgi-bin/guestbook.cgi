@@ -12,11 +12,16 @@ use HTML::Tiny;
 use Captcha::reCAPTCHA;
 use lib '../../../perl5/lib/perl5/';
 use Dotenv -load => '../.env';
+use Net::Akismet;
  
 my $query = CGI->new;
 print $query->header;
 my $document = HTML::Tiny->new;
 my $captcha = Captcha::reCAPTCHA->new;
+my $akismet = Net::Akismet->new(
+                KEY => $ENV{AKISMET_SECRET_KEY},
+                URL => 'https://johnlradford.io/',
+        ) or &js_redirect_home('Key verification failure!');
 
 # Only accept POST requests.
 &js_redirect_home("Bad Request Method!") unless ($query->request_method eq 'POST');
@@ -34,6 +39,8 @@ if ($query->param()) {
 
     &js_redirect_home("Name exceeds 50 characters!") if ( length $fullname > 50 );
     &js_redirect_home("Message exceeds 1000 characters!") if ( length $message > 500 );
+
+    &akismet_check($fullname, $message);
 
     # Strip out bad chars.
     $fullname =~ s/[\$<>#@~&*()\[\];:^`\\\/]+//g;
@@ -99,3 +106,19 @@ sub verify_captcha {
         &js_redirect_home("Captcha Verification Failed!");
     }
 }
+
+sub akismet_check {
+    my ($name, $message) = @_;
+    my $verdict = $akismet->check(
+                    USER_IP                 => $ENV{REMOTE_ADDR},
+                    COMMENT_USER_AGENT      => $ENV{HTTP_USER_AGENT},
+                    COMMENT_CONTENT         => $message,
+                    COMMENT_AUTHOR          => $name,
+                    REFERRER                => $ENV{HTTP_REFERER},
+            ) or die('Is the server here?');
+
+    if ('true' eq $verdict) {
+        &js_redirect_home('Spam Detected!');
+    }
+}
+
