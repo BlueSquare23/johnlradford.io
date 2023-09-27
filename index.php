@@ -55,7 +55,7 @@
         </div>
         <div class="row">
           <div class="col">
-            <div class="d-flex justify-content-center">
+            <div class="d-flex justify-content-center container-fluid">
               <?php include "./me.html" ?> 
             </div>
             <div class="d-flex justify-content-center">
