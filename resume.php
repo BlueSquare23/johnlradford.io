@@ -16,11 +16,16 @@
     <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
   </head>
   
+  <div class="snow">
   <body style="background-color:black;">
     <!-- Nice Bootstrap CSS Navbar -->
     <?php include "./nav.html" ?>
   
     <iframe src="./resume.pdf" style="width:100%; height:1000px"></iframe>
+
+    <!-- Christmas Stuff -->
+    <img class="xmas-tree-l d-none d-md-block img-fluid" src="/static/img/big_christmas_tree.gif">
+    <img class="xmas-tree-r d-none d-md-block img-fluid" src="/static/img/big_christmas_tree.gif">
   
     <!-- Nice Bootstrap Footer -->
     <?php include "./footer.html" ?>
@@ -37,4 +42,5 @@
       crossorigin="anonymous">
     </script>
   </body>
+  </div>
 </html>

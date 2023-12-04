@@ -1,0 +1,54 @@
+      <!-- My Bio -->
+      <div class="mt-3 container-lg bg-dark text-white border border-secondary border-2 rounded">
+        <div class="row">
+          <div class="col">
+            <a class="float-end" href="./teapot/" style="text-decoration: none;" title="Teapot">
+              <img style="cursor: pointer;" class="img-fluid" alt="418 teapot" title="I'm a teapot" src="./static/img/teapot.png">
+            </a>
+            <h3 class="pt-1">About Me</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div class="d-flex justify-content-center container-fluid">
+              <?php include "./me.html" ?> 
+            </div>
+            <div class="d-flex justify-content-center">
+              <a href="https://youtu.be/Gmp1o9pkync?t=168" target="_blank" rel="noopener noreferrer">
+                <img class="mb-1 pt-1 img-fluid" src="./static/img/goodbing.png" alt="I have been a good bing :)">
+              </a>
+            </div>
+            <br>
+            <p>I'm a junior computer heretic, IT professional, web guy, tinkerer, bad
+               programmer, and aspiring mad sea captain. <i>Aargh, computers are but a
+               fallback til me vessle's seaworthy again!</i></p>
+            <p>I'm a big fan of the Unix / Linux world and spend a lot of my time
+               inside of a terminal window. As a compulsive scriptor I enjoy automating
+               computing tasks of all shapes and sizes.</p>
+            <p>My professional experience is primarily in support, security, and
+               systems administration for web and email hosting services. Although, I also
+               dabble with front and back end web development and offensive cyber
+               security.
+            </p>
+            <hr style="color: white;">
+            <h4>My PGP Public Key:
+              <img onclick="copyFingerprint()" style="cursor: pointer;" alt="pgp fingerprint icon"
+                title="Copy Fingerprint: C39C7BA01EE2894B6BA8563A5A9B2754F7352546" src="./static/img/fingerprint.png">
+              <script>
+                function copyFingerprint() {
+                  var fingerprint = "C39C7BA01EE2894B6BA8563A5A9B2754F7352546";
+                  navigator.clipboard.writeText(fingerprint);
+                  alert("Text Copied!" + "\n\n\t" + fingerprint);
+                }
+              </script>
+              <a href="pgp_key.txt" id="pgp-key-icon" title="John's PGP Key" target="_blank" rel="noopener noreferrer" 
+                style="text-decoration: none;">
+                <img src="./static/img/key.png" alt="pgp key icon">
+              </a>
+              <a href="pgp_key.txt" download="johns_pgp_key.txt" style="text-decoration: none;" title="Download Key">
+                <img src="./static/img/download-icon.png" alt="download icon">
+              </a>
+            </h4>
+          </div>
+        </div>
+      </div>

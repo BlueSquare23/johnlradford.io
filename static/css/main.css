@@ -3,11 +3,12 @@ html {
 }
 
 body {
-  background-image: url("../img/starstwinkle.gif");
+  background-image: url(/static/img/starstwinkle.gif);
   background-repeat: repeat;
   min-height: 100%;
   font-family: 'VT323', monospace !important;
   font-size: 1.25em !important;
+  mix-blend-mode: screen;/* but like opacity it will affect the whole container and content */
 }
 
 #topBtn {
@@ -15,4 +16,27 @@ body {
   left: 30px;
   bottom: 20px;
   font-size: 12px;
+}
+
+.xmas-tree-l {
+  position: fixed;
+  bottom: 85px;
+  left: 1px;
+}
+
+.xmas-tree-r {
+  position: fixed;
+  bottom: 85px;
+  right: 1px;
+}
+
+.music-player {
+  position: fixed;
+  bottom: 85px;
+  right: 15vw;
+}
+
+.snow {
+  background-image: url(/static/img/snowing.gif);
+  background-repeat: repeat;
 }

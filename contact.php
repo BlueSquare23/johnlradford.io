@@ -38,6 +38,7 @@
     <script src='https://www.google.com/recaptcha/api.js'></script>
   </head>
   
+  <div class="snow">
   <body style="background-color:black;">
     <!-- Nice Bootstrap Navbar -->
     <?php include "./nav.html" ?>
@@ -80,6 +81,10 @@
     <!-- Guestbook word number script -->
     <script src="./static/js/char-count.js"></script>
   
+    <!-- Christmas Stuff -->
+    <img class="xmas-tree-l d-none d-md-block img-fluid" src="/static/img/big_christmas_tree.gif">
+    <img class="xmas-tree-r d-none d-md-block img-fluid" src="/static/img/big_christmas_tree.gif">
+  
     <!-- Nice Bootstrap Footer -->
     <?php include "./footer.html" ?>
 
@@ -95,4 +100,5 @@
       crossorigin="anonymous">
     </script>
   </body>
+  </div>
 </html>
