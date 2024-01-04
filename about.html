@@ -10,8 +10,18 @@
         </div>
         <div class="row">
           <div class="col">
-            <div class="d-flex justify-content-center container-fluid">
-              <?php include "./me.html" ?> 
+            <div id="ascii_pic" class="d-flex justify-content-center container-fluid">
+<!--              <?php include "./me.html" ?> -->
+              <script>
+                fetch('/me.html').then(function (response) {
+                  return response.text();
+                }).then(function (html) {
+                  const asciiPic = document.getElementById("ascii_pic");
+                  asciiPic.innerHTML = html;
+                }).catch(function (err) {
+                  console.warn('Something went wrong!', err);
+                });
+              </script>
             </div>
             <div class="d-flex justify-content-center">
               <a href="https://youtu.be/Gmp1o9pkync?t=168" target="_blank" rel="noopener noreferrer">

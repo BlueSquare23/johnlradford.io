@@ -81,10 +81,6 @@
     <!-- Guestbook word number script -->
     <script src="./static/js/char-count.js"></script>
   
-    <!-- Christmas Stuff -->
-    <img class="xmas-tree-l d-none d-md-block img-fluid" src="/static/img/big_christmas_tree.gif">
-    <img class="xmas-tree-r d-none d-md-block img-fluid" src="/static/img/big_christmas_tree.gif">
-  
     <!-- Nice Bootstrap Footer -->
     <?php include "./footer.html" ?>
 

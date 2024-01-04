@@ -36,7 +36,3 @@ body {
   right: 15vw;
 }
 
-.snow {
-  background-image: url(/static/img/snowing.gif);
-  background-repeat: repeat;
-}

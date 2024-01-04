@@ -94,24 +94,6 @@
       onclick="window.scrollTo(0, 0);">/\ Top /\
     </button>
   
-    <!-- Christmas Stuff -->
-    <img class="xmas-tree-l d-none d-md-block img-fluid" src="/static/img/big_christmas_tree.gif">
-    <img class="xmas-tree-r d-none d-md-block img-fluid" src="/static/img/big_christmas_tree.gif">
-    <div class="music-player d-flex justify-content-center">
-      <iframe id="player-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DX6R7QUWePReA?utm_source=generator" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-      <button type="button" onclick="toggleMusicDisplay();" class="btn-close btn-close-white"></button>
-    </div>
-    <script>
-      function toggleMusicDisplay(){
-        const playerIframe = document.getElementById('player-iframe');
-        if (playerIframe.style.display === "none"){
-          playerIframe.style.display = "block";
-        } else {
-          playerIframe.style.display = "none";
-        } 
-      }
-    </script>
-
     <!-- Nice Bootstrap Footer -->
     <?php include "./footer.html" ?>
   
