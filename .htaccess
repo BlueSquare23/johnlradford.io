@@ -3,6 +3,5 @@ RewriteRule .git - [F,L]
 RewriteRule .env - [F,L]
 RewriteRule hits.txt - [F,L]
 RewriteRule guestbook.txt - [F,L]
-RewriteRule todo.*txt - [F,L]
 
 AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css application/x-javascript application/javascript

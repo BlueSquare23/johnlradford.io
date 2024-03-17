@@ -1,4 +1,0 @@
-<?php
-  $todo_key = 'SECRET_KEY_GOES_HERE';
-  echo "<input type='hidden' name='todo_key' value='$todo_key'></input>\n";
-?>
