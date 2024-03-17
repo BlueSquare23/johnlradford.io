@@ -34,6 +34,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
 
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+
     <!-- ReCAPTCHA v2 -->
     <script src='https://www.google.com/recaptcha/api.js'></script>
   </head>
@@ -51,7 +54,7 @@
       <?php include "./hit_counter.php" ?>
   
       <!-- Quote Carousel -->
-      <?php include "./quotes.php" ?>
+      <?php include "./quotes.html" ?>
   
       <!-- Technical Expierence -->
       <?php include "./tech_experience.html" ?>

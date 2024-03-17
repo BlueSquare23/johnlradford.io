@@ -1,10 +1,102 @@
-      <div class="pt-1 mb-3 container-lg bg-dark text-white border border-secondary border-2 rounded">
-        <blockquote class="blockquote">
-          <h4>> Perl is like a thermos, it keeps cold things cold and warm things not impossible.</h4>
-        </blockquote>
-        <div class="credit" style="text-align:right;">
-          <cite>
-            <a href="https://ashidakim.com/zenkoans/57thegatesofparadise.html">- Anchient Perl Koan</a>
-          </cite>
-        </div>
+      <div class="py-1 mb-3 container-lg bg-dark text-white border border-secondary border-2 rounded">
+        <h3>Bits of Wisdom</h3>
+        <article class="quote">
+          <blockquote class="blockquote">
+            <h4 id='quote'>> Perl is like a thermos, it keeps cold things cold and warm things not impossible.</h4>
+          </blockquote>
+          <div class="credit" style="text-align:right;">
+            <cite>
+              <a id='quote-src' href="https://ashidakim.com/zenkoans/57thegatesofparadise.html">- Anchient Perl Koan</a>
+            </cite>
+          </div>
+          <!-- Previous & Next Buttons -->
+          <div class="button-container text-center">
+            <button class="btn btn-primary prev-btn text-center">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <!-- Random Button -->
+            <button class="btn btn-primary random-btn text-center">
+              Suprise Me
+            </button>
+            <button class="btn btn-primary next-btn text-center">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+        </article>
       </div>
+      <script>
+        // local quotes data
+        const quotes = [
+          {
+            id: 1,
+            quote: '> Perl is like a thermos, it keeps cold things cold and warm things not impossible.',
+            srcTxt: '- Anchient Perl Koan',
+            srcLink: 'https://ashidakim.com/zenkoans/57thegatesofparadise.html',
+          },
+          {
+            id: 2,
+            quote: '> There are aliens in the feline tail!',
+            srcTxt: '- Tailiens.com',
+            srcLink: 'https://tailiens.com',
+          },
+          {
+            id: 3,
+            quote: '> Hello, we\'ve been trying to reach you about your cars extended warranty!',
+            srcTxt: '- Unknown',
+            srcLink: 'https://whitehouse.gov',
+          },
+        ];
+        // select items
+        const quote = document.getElementById('quote');
+        const quoteSrc = document.getElementById('quote-src');
+
+        const prevBtn = document.querySelector('.prev-btn');
+        const nextBtn = document.querySelector('.next-btn');
+        const randomBtn = document.querySelector('.random-btn');
+
+        // set starting item
+        let currentItem = 0;
+
+        // load initial item
+        window.addEventListener('DOMContentLoaded', function(){
+          showQuote(currentItem);
+        });
+
+        // Show quote based on item.
+        function showQuote(){
+          const item = quotes[currentItem];
+          quote.textContent = item.quote;
+          quoteSrc.textContent = item.srcTxt;
+          quoteSrc.href = item.srcLink;
+        }
+
+        // Show next quote.
+        nextBtn.addEventListener('click', function(){
+          currentItem++;
+          // loop through items by resetting index.
+          if(currentItem > quotes.length - 1){
+            currentItem = 0;
+          }
+          showQuote(currentItem);
+        });
+
+        // Show previous quote.
+        prevBtn.addEventListener('click', function(){
+          currentItem--;
+          // loop through items by resetting index.
+          if(currentItem < 0){
+            currentItem = 2;
+          }
+          showQuote(currentItem);
+        });
+
+        // Show random quote.
+        randomBtn.addEventListener('click', function getRandomPerson(){
+          let oldValue = currentItem;  
+          currentItem = Math.floor(Math.random() * quotes.length);
+          if (currentItem === oldValue){
+            getRandomPerson();
+          }
+          showQuote(currentItem);
+        });
+      </script>
