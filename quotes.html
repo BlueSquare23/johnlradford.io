@@ -45,6 +45,12 @@
             srcTxt: '- Unknown',
             srcLink: 'https://whitehouse.gov',
           },
+          {
+            id: 4,
+            quote: '> I dunno, I dream in Perl sometimes...',
+            srcTxt: '- Larry Wall in <8538@jpl-devvax.JPL.NASA.GOV>',
+            srcLink: 'http://www.cs.cmu.edu/~cache/misc/larry_wall.txt',
+          },
         ];
         // select items
         const quote = document.getElementById('quote');
@@ -85,7 +91,7 @@
           currentItem--;
           // loop through items by resetting index.
           if(currentItem < 0){
-            currentItem = 2;
+            currentItem = 3;
           }
           showQuote(currentItem);
         });
