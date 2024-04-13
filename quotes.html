@@ -43,13 +43,37 @@
             id: 3,
             quote: '> Hello, we\'ve been trying to reach you about your cars extended warranty!',
             srcTxt: '- Unknown',
-            srcLink: 'https://whitehouse.gov',
+            srcLink: 'https://en.wikipedia.org/wiki/American_Revolutionary_War#/media/File:NorthAmerica1762-83.png',
           },
           {
             id: 4,
             quote: '> I dunno, I dream in Perl sometimes...',
             srcTxt: '- Larry Wall in <8538@jpl-devvax.JPL.NASA.GOV>',
             srcLink: 'http://www.cs.cmu.edu/~cache/misc/larry_wall.txt',
+          },
+          {
+            id: 5,
+            quote: '> Data is not information, information is not knowledge, knowledge is not understanding, understanding is not wisdom.',
+            srcTxt: '- Clifford Stoll - In Silicon Snake Oil: Second Thoughts on the Information Highway (1996), 193-194.',
+            srcLink: 'https://en.wikipedia.org/wiki/Silicon_Snake_Oil',
+          },
+          {
+            id: 6,
+            quote: '> If you don\'t have an E-mail address, you\'re in the Netherworld. If you don\'t have your own World Wide Web page, you\'re a nobody.',
+            srcTxt: '- Clifford Stoll - Computer World, Vol. 29 No. 33, August 14th 1995',
+            srcLink: 'https://books.google.com/books?id=alEdS8humpQC&pg=PT89&lpg=PT89&dq#v=onepage&q&f=false',
+          },
+          {
+            id: 7,
+            quote: '> Merely that I have a World Wide Web page does not give me any power, any abilities, nor any status in the real world.',
+            srcTxt: '- Clifford Stoll - Computer World, Vol. 29 No. 33, August 14th 1995',
+            srcLink: 'https://books.google.com/books?id=alEdS8humpQC&pg=PT89&lpg=PT89&dq#v=onepage&q&f=false',
+          },
+          {
+            id: 8,
+            quote: '> System administrator, like database administrator or airplane mechanic or dog groomer, all of whom work with multiple databases, airplanes and dogs.',
+            srcTxt: '- posted by khedron on ask.metafilter.com at 5:05 PM on June 14, 2010',
+            srcLink: 'https://ask.metafilter.com/156707/System-Administrator-or-Systems-Administrator',
           },
         ];
         // select items
@@ -91,7 +115,7 @@
           currentItem--;
           // loop through items by resetting index.
           if(currentItem < 0){
-            currentItem = 3;
+            currentItem = 7;
           }
           showQuote(currentItem);
         });
@@ -105,4 +129,10 @@
           }
           showQuote(currentItem);
         });
+
+        // Click random button on page load.
+        window.onload=function(){
+          randomBtn.click();
+        };
       </script>
+      

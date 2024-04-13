@@ -1,4 +1,4 @@
-      <div class="pt-1 my-3 container-lg bg-dark text-white border border-secondary border-2 rounded">
+      <div class="pt-1 my-3 container-lg bg-dark text-white border border-secondary border-2 rounded pb-5 mb-5">
         <div class="row">
           <div class="col my-1">
             <h3>Sign My Guestbook!</h3>

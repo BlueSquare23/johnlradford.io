@@ -3,6 +3,7 @@ html {
 }
 
 body {
+  cursor: url('/static/img/spaceship.png'), auto;
   background-image: url(/static/img/starstwinkle.gif);
   background-repeat: repeat;
   min-height: 100%;
@@ -24,10 +25,19 @@ body {
   left: 1px;
 }
 
-.xmas-tree-r {
-  position: fixed;
-  bottom: 85px;
-  right: 1px;
+.baby-devil-l {
+  position: sticky;
+  bottom: 80px;
+  left: 15px;
+  margin-top: -150px;
+}
+
+.blink-tux-r {
+  position: sticky;
+  bottom: 80px;
+  margin-left: 90%;
+  margin-top: -150px;
+  margin-bottom: -35px;
 }
 
 .music-player {
