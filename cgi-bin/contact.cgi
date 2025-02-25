@@ -28,17 +28,17 @@ my $captcha = Captcha::reCAPTCHA->new;
 # If parameters are supplied, run the main logic.
 if ($query->param()) {
     my $fullname = $query->param('fullname') || &redirect("Missing Full Name!");
+    my $reply_to = $query->param('reply_to') || &redirect("Missing Reply To!");
     my $message  = $query->param('message') || &redirect("Missing Message Text!");
     my $captcha_response = $query->param('g-recaptcha-response') || &redirect("Missing reCAPTCHA Verification Token!");
 
     &verify_captcha($captcha_response);
 
     &redirect("Name exceeds 50 characters!") if (length $fullname > 50);
-    &redirect("Message exceeds 500 characters!") if (length $message > 500);
+    &redirect("Message exceeds 1000 characters!") if (length $message > 1000);
 
-    # Strip out bad chars.
-    $fullname =~ s/[\$<>#@~&*()\[\];:^`\\\/]+//g;
-    $message =~ s/[\$<>#@~&*()\[\];:^`\\\/]+//g;
+    # Strip out bad chars. Basically break urls.
+    $message =~ s/[\\\/]+//g;
 
     open(MAIL, "|/usr/sbin/sendmail -t -r $ENV{'FROM_ADDRESS'}");
     my $date_time = localtime();
@@ -46,6 +46,7 @@ if ($query->param()) {
     print MAIL "From: $ENV{'FROM_ADDRESS'}\n";
     print MAIL "Subject: Contact Form Submission From - $fullname\n";
     print MAIL "Date: $date_time\n";
+    print MAIL "Reply-To: $reply_to\n";
     print MAIL "$fullname" . "'s Message\n";
     print MAIL "---\n";
     print MAIL "$message\n";

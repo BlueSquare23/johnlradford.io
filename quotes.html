@@ -75,6 +75,12 @@
             srcTxt: '- posted by khedron on ask.metafilter.com at 5:05 PM on June 14, 2010',
             srcLink: 'https://ask.metafilter.com/156707/System-Administrator-or-Systems-Administrator',
           },
+          {
+            id: 9,
+            quote: '> Everyone knows that debugging is twice as hard as writing a program in the first place. So if you\'re as clever as you can be when you write it, how will you ever debug it?',
+            srcTxt: '- Brian Kernighan - The Elements of Programming Style',
+            srcLink: 'https://en.wikipedia.org/wiki/The_Elements_of_Programming_Style',
+          },
         ];
         // select items
         const quote = document.getElementById('quote');
@@ -115,7 +121,7 @@
           currentItem--;
           // loop through items by resetting index.
           if(currentItem < 0){
-            currentItem = 7;
+            currentItem = 8;
           }
           showQuote(currentItem);
         });

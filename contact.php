@@ -60,10 +60,14 @@
                 <label for="fullname">Your Name:</label>
                 <input class="form-control" type="text" id="fullname" name="fullname" maxlength="50" required>
               </div>
+              <div class="form-group">
+                <label for="fullname">Your Email:</label>
+                <input class="form-control" type="text" id="reply_to" name="reply_to" maxlength="100" required>
+              </div>
               <div class="pb-2 form-group">
                 <label for="message">Type Your Message Here!</label>
-                <span id="char_count" class="float-end">500/500</span>
-                <textarea class="form-control" id="message" name="message" rows="4" cols="50" maxlength="500" required></textarea>
+                <span id="char_count" class="float-end">1000/1000</span>
+                <textarea class="form-control" id="message" name="message" rows="4" cols="50" maxlength="1000" required></textarea>
               </div>
               <button type="submit" class="btn btn-primary mb-3 float-end">Send</button>
               <!-- ReCAPTCHA -->
