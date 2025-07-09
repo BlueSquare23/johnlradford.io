@@ -1,0 +1,72 @@
+\documentclass[11pt]{article}
+\usepackage[letterpaper, margin=0.75in]{geometry}
+\usepackage{parskip}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{fontspec}
+\usepackage{enumitem}
+
+% Footer
+\usepackage{fancyhdr}
+\usepackage[us,12hr]{datetime}
+\fancypagestyle{plain}{
+\fancyhf{}
+\rfoot{Last Compiled: {\mmddyyyydate\today} at \currenttime}
+\lfoot{John Radford's Resume}
+\renewcommand{\headrulewidth}{0pt}}
+\pagestyle{plain}
+\pagenumbering{gobble}
+
+% Set main font
+\setmainfont{Comic Sans MS}
+
+% Hyperlink styling
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+}
+
+% Custom colors
+\definecolor{sectioncolor}{rgb}{0.2, 0.2, 0.6}
+
+% Section formatting
+\usepackage{titlesec}
+\titleformat{\section}
+  {\normalfont\Large\bfseries\color{sectioncolor}}
+  {\thesection}{1em}{}
+\titleformat{\subsection}
+  {\normalfont\large\bfseries}
+  {\thesubsection}{.5em}{}
+
+% Reduce space after section headers
+\titlespacing*{\section}{0pt}{0.5\baselineskip}{0.3\baselineskip}
+\titlespacing*{\subsection}{0pt}{0.3\baselineskip}{0.1\baselineskip}
+
+% Fix for Pandoc's tightlist
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+% Customize lists
+\setlist[itemize]{leftmargin=*,nosep,after=\vspace{0.5\baselineskip}}
+
+% Header with name and contact info
+\newcommand{\header}[2]{
+  \begin{center}
+    {\Huge\bfseries #1}\\[0.5em]
+    #2
+  \end{center}
+  \vspace{.75em}
+}
+
+\begin{document}
+
+\header{John L. Radford}{
+  \href{mailto:johnlradford23@gmail.com}{johnlradford23@gmail.com}
+  \href{https://johnlradford.io}{johnlradford.io}
+}
+
+% Content will be inserted here by pandoc
+$body$
+
+\end{document}

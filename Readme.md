@@ -54,3 +54,10 @@ libraries. Not even a database. Just the basic tools listed below.
 * PHP 8
 * Vanilla JavaScript
 
+## Pandoc CMD for Compiling Resume
+
+To compile my `resume.md` doc to a PDF:
+
+```
+pandoc resume.md -o resume.pdf --template=template.tex --pdf-engine=xelatex
+```
