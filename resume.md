@@ -32,7 +32,7 @@ responsibilities. At the time, I was also working the abuse team and the
 internal account migrations team as well as handling normal level 2 support
 tickets and phone calls.
 
-### DevOps Specialist & Junior SysAdmin - Pair Networks, Inc.
+### DevOps Specialist & SysAdmin - Pair Networks, Inc.
 
 **Timeframe**: 2023-Present
 

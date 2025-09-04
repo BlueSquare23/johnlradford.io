@@ -296,11 +296,11 @@ conspiracy theories, the real world is sad enough all on its own.
 
 #### Myth 1: "The Federal Reserve is a Private Bank Owned by Secret Elites"
 
-One of the most persistent conspiracy theories is that the Federal Reserve is a
-privately owned entity controlled by a shadowy group of bankers. While it’s
-true that the Fed has a unique structure, with regional Federal Reserve Banks
-technically structured as private corporations, it's misleading to call it a
-"private" institution. 
+One of the most persistent conspiracy theories out there is that the Federal
+Reserve is a privately owned entity, controlled by a shadowy group of bankers.
+While it’s true that the Fed has a unique structure, with regional Federal
+Reserve Banks technically structured as private corporations, it's misleading
+to call it a "private" institution. 
 
 The Fed's Board of Governors is a government agency whose members are appointed
 by the President and confirmed by Congress. Its policies are publicly
@@ -325,8 +325,8 @@ regulators), and lend out the rest. This lending fuels economic growth by
 allowing businesses to expand, people to buy homes, and innovation to flourish. 
 
 The system isn't a Ponzi scheme because banks don't promise impossible returns.
-They just facilitate borrowing and lending, with risks managed by capital
-requirements and oversight. 
+They just facilitate borrowing and lending, with risks managed by [capital
+requirements](https://en.wikipedia.org/wiki/Capital_requirement) and oversight. 
 
 The real danger isn't fractional reserve banking itself, but when banks take
 excessive risks (like in 2008) or when regulators fail to enforce prudent
@@ -475,6 +475,7 @@ Street, not just Wall Street.
 * [Brookings - What is maximum employment?](https://www.brookings.edu/articles/how-does-the-fed-define-maximum-employment/)
 * [St Louis Fed - Teaching the Linkage Between Banks and the Fed](https://www.stlouisfed.org/publications/page-one-economics/2021/09/17/teaching-the-linkage-between-banks-and-the-fed-r-i-p-money-multiplier)
 * [Wikipedia - Troubled Asset Relief Program](https://en.wikipedia.org/wiki/Troubled_Asset_Relief_Program)
+* [Wikipedia - Capital Requirement](https://en.wikipedia.org/wiki/Capital_requirement)
 * [Investopedia - What is Cheap Money](https://www.investopedia.com/terms/c/cheap-money.asp)
 * [Vox - The Case Against the Gold Standard](https://www.vox.com/2014/7/16/5900297/case-against-gold-standard)
 
