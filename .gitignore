@@ -7,3 +7,4 @@ blog
 .todo_key.php
 todos.txt*
 .api_passwd
+location.json

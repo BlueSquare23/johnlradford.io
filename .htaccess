@@ -2,9 +2,9 @@
 Order deny,allow
 Deny from all
 # Home IP
-Allow from 74.109.237.172
+Allow from 71.162.7.207
 # Jumpbox (aka Netbird)
-Allow from 216.92.130.192
+Allow from 216.92.130.193
 # Cloudflare IPs
 Allow from 173.245.48.0/20
 Allow from 103.21.244.0/22
@@ -35,7 +35,7 @@ Allow from 2c0f:f248::/32
 
 <Files "location.json">
   Deny from all
-  Allow from 74.109.237.172
+  Allow from 74.109.240.3
 </Files>
 
 AddOutputFilterByType DEFLATE text/text text/html text/plain text/xml text/css application/x-javascript application/javascript
