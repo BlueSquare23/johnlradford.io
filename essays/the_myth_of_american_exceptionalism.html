@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #2c3e50;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header img.logo {
+            display: inline-block; /* Change display to inline-block */
+            margin: 0; /* Remove the auto margins */
+            width: 80; /* Reset the width */
+            height: 80; /* Reset the height */
+            vertical-align: middle; /* Align vertically with the text */
+        }
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2, h3 {
+            color: #2c3e50;
+        }
+        h1 {
+            font-size: 2em;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 10px;
+        }
+        h2 {
+            font-size: 1.75em;
+            margin-top: 30px;
+        }
+        h3 {
+            font-size: 1.5em;
+        }
+        p {
+            margin: 15px 0;
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 75%;
+        }
+        figcaption {
+            text-align: center;
+        }
+        code {
+            background: #ecf0f1;
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        pre {
+            background: #2c3e50;
+            color: #ecf0f1;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+        }
+        pre code {
+            background: none;
+            padding: 0;
+        }
+        blockquote {
+            border-left: 5px solid #3498db;
+            margin: 20px 0;
+            padding: 10px 20px;
+            background: #ecf0f1;
+            color: #333;
+        }
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background: #2c3e50;
+            color: #fff;
+            margin-top: 40px;
+        }
+        footer a {
+            color: #3498db;
+        }
+        /* Table of Contents Styles */
+        #toc {
+            background: #ecf0f1;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        #toc ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        #toc ul li {
+            margin: 5px 0;
+        }
+        #toc ul li a {
+            color: #2c3e50;
+        }
+        #toc ul li a:hover {
+            text-decoration: underline;
+        }
+        /* Indentation for nested sections */
+        #toc ul ul {
+            padding-left: 20px; /* Indent subsections */
+        }
+        #toc ul ul ul {
+            padding-left: 40px; /* Indent sub-subsections further */
+        }
+        .video-container {
+            position: relative;
+            width: 100%;
+            padding-top: 56.25%;
+        }
+        
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>The Myth of American Exceptionalism</h1>
+    </header>
+    <div class="container">
+        <!-- Table of Contents -->
+        <div id="toc">
+            <h2>Table of Contents</h2>
+            <ul>
+            <li><a href="#overview">Overview</a>
+            <ul>
+            <li><a href="#part-1.-american-exceptionalism-by-the-numbers">Part 1. American Exceptionalism By the Numbers</a>
+            <ul>
+            <li><a href="#quality-of-life-metrics">Quality of Life Metrics</a></li>
+            <li><a href="#literacy">Literacy</a></li>
+            <li><a href="#infant-mortality">Infant Mortality</a></li>
+            <li><a href="#cost-of-living">Cost of Living</a></li>
+            <li><a href="#wealth-inequality">Wealth Inequality</a></li>
+            <li><a href="#healthcare">Healthcare</a></li>
+            <li><a href="#gun-violence">Gun Violence</a></li>
+            <li><a href="#these-are-choices">These Are Choices</a></li>
+            </ul></li>
+            <li><a href="#part-2.-history-vs-american-moral-superiority">Part 2. History vs American Moral Superiority</a></li>
+            <li><a href="#part-3.-american-culture">Part 3. American Culture</a>
+            <ul>
+            <li><a href="#the-death-of-the-american-dream">The Death of The American Dream</a></li>
+            </ul></li>
+            <li><a href="#conclusion">Conclusion</a>
+            <ul>
+            <li><a href="#so-what-the-fuck-is-america-actually">So What the Fuck is America Actually?</a></li>
+            <li><a href="#the-pipeline-from-patriotism-into-nationalism">The Pipeline from Patriotism into Nationalism</a></li>
+            </ul></li>
+            <li><a href="#final-thoughts">Final Thoughts</a></li>
+            </ul></li>
+            </ul>
+</div>
+<!-- Document Content -->
+<h1 id="overview">Overview</h1>
+<p>Hey bud, just a heads up this one’s going to be kinda sad.</p>
+<p>Before we begin, let me say I don’t hate America. I’m not trying to convince you to hate America. America is and has always been an idea, a concept, a dream, more than a reality. So what would that even mean to hate the concept of America?</p>
+<p>No, instead what I want to talk about today is dispelling the myth that America is “the greatest country on Earth!” How we’re going to do it is we’re just going to talk about facts and history.</p>
+<p>See you and I went to the same schools, had the same history classes (shout out Mr. O!). But as I’m sure you’re very aware the traditional story we’re told about the founding and history of this country is a myth.</p>
+<p>Likewise, so are many of the stories we’re told about its values and greatest beliefs.</p>
+<h2 id="part-1.-american-exceptionalism-by-the-numbers">Part 1. American Exceptionalism By the Numbers</h2>
+<p>By definition, to be <em>“exceptional”</em> is to be out of the ordinary.</p>
+<p>In stats we use a normal curve to describe how ordinary/exceptional something is.</p>
+<figure>
+<img src="https://rotel.pressbooks.pub/app/uploads/sites/77/2024/07/Normal-Distribution-deviations.png" alt="" /><figcaption>Normal Distribution Curve</figcaption>
+</figure>
+<h3 id="quality-of-life-metrics">Quality of Life Metrics</h3>
+<p>In political science they use what are called “Quality of Life” measures to assess the health and well being of citizen in a given country. These include things like, life expectancy, literacy rates, GDP per capita, real wage growth, etc.</p>
+<p>So just according to the numbers, how does America stack up against the rest of the world?</p>
+<h3 id="literacy">Literacy</h3>
+<p>To look at pure country ranking is misleading because literacy is a spectrum. Its not a binary thing and is more complicated than simply can or cannot read.</p>
+<p>Also lots of countries lie about their overall literacy rates. On paper the US has a 99% literacy rate, however that’s misleading at best and an outright lie at worse.</p>
+<p>What’s more important is the level people read at. This is tracked using a standardized assessment developed by the <em>“Program for the International Assessment of Adult Competencies (PIAAC)”</em>.</p>
+<p>Here’s some info I could find on actual US literacy rates.</p>
+<figure>
+<img src="/static/img/us-literacy-rates.png" alt="" /><figcaption>US Literacy Rates Breakdown - magnetaba.com</figcaption>
+</figure>
+<p><a href="https://www.magnetaba.com/blog/us-literacy-statistics">Introduction to Literacy Challenges in the U.S. - magnetaba.com</a></p>
+<figure>
+<img src="https://nces.ed.gov/pubs2019/2019179/images/2019179-1.png" alt="" /><figcaption>U.S. Department of Education NCES PIAAC Data</figcaption>
+</figure>
+<p><a href="https://nces.ed.gov/pubs2019/2019179/index.asp">U.S. Department of Education NCES - July 2019</a></p>
+<p>So how does this compare to other wealthy industrialized nations?</p>
+<p>Well I found this cool site that list all of these <em>Program for the International Assessment of Adult Competencies (PIAAC)</em> scores:</p>
+<iframe width='550' height='620' frameBorder='0' src='https://www.compareyourcountry.org/adult-skills?lg=en&cr=oecd&page=0'></iframe>
+<p>Doesn’t appear to be very exceptional to me. Looks kinda below average actually, hrmmm…</p>
+<h3 id="infant-mortality">Infant Mortality</h3>
+<p>Well according the <em>CIA World Factbook</em>, the US is ranked 173rd out of 227 countries. Now in terms of infant mortality, higher ranking means less dead babies. So no.1 is Afghanistan where on avg 100 / 1000 infants will die during child birth. In the US that number is 5.1 / 1000 (with that number jumping to 10/1000 for African American women).</p>
+<p>But still there are 50 countries on earth that do a better job taking care of their babies than we do.</p>
+<p><a href="https://www.cia.gov/the-world-factbook/field/infant-mortality-rate/country-comparison/">CIA World Factbook - cia.gov</a></p>
+<p><a href="https://minorityhealth.hhs.gov/infant-health-and-mortality-and-blackafrican-americans">Infant Health and Mortality and Black/African Americans - hhs.gov</a></p>
+<blockquote>
+<p>US Has Highest Infant and Maternal Mortality Rates Despite the Most Health Care Spending</p>
+</blockquote>
+<p><a href="https://www.ajmc.com/view/us-has-highest-infant-maternal-mortality-rates-despite-the-most-health-care-spending">US Has Highest Infant… - ajmc.com</a></p>
+<h3 id="cost-of-living">Cost of Living</h3>
+<p>Cost of living is ranked by something called the “Cost of Living Index.”</p>
+<blockquote>
+<p>What Is a Cost of Living Index?</p>
+<p>Cost of living data includes the expenses incurred for food, shelter, transportation, energy, clothing, education, healthcare, childcare, and entertainment.</p>
+<p>A cost of living index tracks how much basic expenses for these categories rise over time and in different regions. It can demonstrate how need-based expenses vary from one area to another.</p>
+</blockquote>
+<ul>
+<li><a href="https://www.investopedia.com/ask/answers/100214/how-cost-living-index-calculated.asp">Cost of Living Index - investopedia.com</a></li>
+</ul>
+<p>What matters is a lower Cost of Living Index (COLI) number is better.</p>
+<figure>
+<img src="/static/img/us-cost-of-living.png" alt="" /><figcaption>US Cost of Living Map - numbeo.com</figcaption>
+</figure>
+<ul>
+<li><a href="https://www.numbeo.com/cost-of-living/rankings_by_country.jsp">Cost of Living Index by Country 2025 Mid-Year - numbeo.com</a></li>
+</ul>
+<p>Now we have to keep in mind that the US is a developed nation and generally speaking, developed nations have a higher cost of living.</p>
+<p>However, surprise surprise, the US still ranks worse than Germany, France, Japan, UK, Canada, Australia, etc.</p>
+<h3 id="wealth-inequality">Wealth Inequality</h3>
+<div class='tableauPlaceholder' id='viz1766951629017' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;gl&#47;globalbillionairewealthgain20242025&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='globalbillionairewealthgain20242025&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;gl&#47;globalbillionairewealthgain20242025&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1766951629017');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='650px';vizElement.style.height='527px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='650px';vizElement.style.height='527px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+<ul>
+<li><a href="https://inequality.org/facts/global-inequality/#global-wealth-inequality">Global Wealth Inequality - inequality.org</a></li>
+</ul>
+<blockquote>
+<p>the U.S. has one of the most unequal income distributions in the developed world, according to data from the Organization for Economic Cooperation and Development — even after taxes and social-welfare policies are taken into account.</p>
+</blockquote>
+<p><a href="https://www.pewresearch.org/short-reads/2013/12/19/global-inequality-how-the-u-s-compares/">Global inequality: How the U.S. compares - pewresearch.org</a></p>
+<h3 id="healthcare">Healthcare</h3>
+<figure>
+<img src="/static/img/us-healthcare-spending.png" alt="" /><figcaption>US Healthcare Spending Pre Capita - pgpf.org</figcaption>
+</figure>
+<iframe title="U.S. healthcare spending per capita is twice the average of other wealthy countries" aria-label="Bar Chart" id="datawrapper-chart-4j85W" src="https://datawrapper.dwcdn.net/4j85W/7/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="545" data-external="1">
+</iframe>
+<script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}})}();</script>
+<p><a href="https://www.pgpf.org/article/how-does-the-us-healthcare-system-compare-to-other-countries/">How Does the U.S. Healthcare System Compare to Other Countries - pgpf.org</a></p>
+<p>But surely with all that money we’re spending on it we’re getting better outcomes right?</p>
+<iframe title="The United States has worse healthcare outcomes compared to other wealthy countries" aria-label="Scatter Plot" id="datawrapper-chart-YYJYe" src="https://datawrapper.dwcdn.net/YYJYe/5/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="515" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}})}();</script>
+<h3 id="gun-violence">Gun Violence</h3>
+<figure>
+<img src="/static/img/us-firearm-homicide-rates.png" alt="" /><figcaption>jacksoncountycombat.com - Higher Rate Than Afghanistan - Lower Than Iraq</figcaption>
+</figure>
+<ul>
+<li><a href="https://www.jacksoncountycombat.com/1112/Facts-Stats-How-Much-The-US-Stands-Out-G">Facts &amp; Stats: How Much The U.S. Stands Out Globally</a></li>
+</ul>
+<p>And firearms are now the leading cause of death for people age 1-19 in the US. More than car crashes or cancer or anything else.</p>
+<p><a href="https://www.nejm.org/doi/full/10.1056/NEJMc2201761">Current Causes of Death in Children and Adolescents in the United States - nejm.org</a></p>
+<h3 id="these-are-choices">These Are Choices</h3>
+<div class="video-container">
+<iframe width="100%" src="https://www.youtube.com/embed/rDK2chgNPZM" title="Ted Turner asks Carl Sagan if he is a socialist." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+</div>
+<p>Now I’d disagree on one thing with Carl Sagan, “we” didn’t do anything. I don’t believe the people have popular control over the government, so blaming everyone collectively is not useful. Like “oh well guess we should all care more,” no that’s not exactly the problem.</p>
+<p>The problem is there are those who benefit from suffering through private ownership. They have no incentive to change the status quo.</p>
+<p>Instead we need to establish real popular control over the government with robust mechanisms to keep private interests at bay.</p>
+<blockquote>
+<p>The solution to the ills of Democracy is more Democracy.</p>
+</blockquote>
+<ul>
+<li>John Dewey, American Philosopher &amp; Educator</li>
+</ul>
+<h2 id="part-2.-history-vs-american-moral-superiority">Part 2. History vs American Moral Superiority</h2>
+<p>Now you might be thinking;</p>
+<p>“Well okay, maybe we’re not the best at QoL metrics. Sure there’s lots of European and Asian countries that are beating us at reading, breading, and feeding their populations. But they don’t have the history and grandeur of the United States! After all we’re the world first and oldest Democracy. We’re a nation of immigrants with liberty, freedom, and justice for all! Right?”</p>
+<p>Well we don’t have to go into atrocity committed in the name of the United States. So here are just some of the hight lights.</p>
+<figure>
+<img src="https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/newscms/2018_05/2088766/ap_746400184512.jpg" alt="" /><figcaption>Saigon Execution by Eddie Adams, Associated Press</figcaption>
+</figure>
+<ul>
+<li>1492-1900: <strong>The Largest Ethnic Cleansing Campaign in Human History</strong>":
+<ul>
+<li>50-60 Million people pre-colonisation, native population reduced by 95%</li>
+</ul></li>
+<li>1492-1865: <strong>American Chattel Slavery</strong>:
+<ul>
+<li>12.5 million Africans stolen, 2 million died in the Middle Passage. ~400 Years of forced labor.</li>
+</ul></li>
+<li>1846-1848: <strong>The Mexican-American War</strong>:
+<ul>
+<li>A war of expansionism based on the belief of Manifest Destiny, resulting in the U.S. annexing 55% of Mexico’s territory (modern-day California, Arizona, New Mexico, Texas, etc.).</li>
+</ul></li>
+<li>1864: <strong>The Sand Creek Massacre</strong>:
+<ul>
+<li>U.S. Army troops under Colonel John Chivington attacked and destroyed a village of Cheyenne and Arapaho, killing and mutilating an estimated 230 Native Americans, mostly women, children, and the elderly.</li>
+</ul></li>
+<li>1899-1902: <strong>The Philippine-American War</strong>:
+<ul>
+<li>A brutal conflict following the Spanish-American War where the U.S. suppressed Filipino independence. Features include the widespread use of “water cure” torture, concentration camps for civilians, and the killing of over 200,000 Filipino civilians, many from famine and disease.</li>
+</ul></li>
+<li>1921: <strong>The Tulsa Race Massacre</strong>:
+<ul>
+<li>A white mob, aided by local authorities, destroyed the prosperous Black neighborhood of Greenwood, known as “Black Wall Street.” An estimated 300 Black citizens were killed, and 10,000 were left homeless.</li>
+</ul></li>
+<li>1942-1945: <strong>Japanese American Internment</strong>:
+<ul>
+<li>The forced relocation and incarceration of approximately 120,000 people of Japanese ancestry (over 60% of whom were U.S. citizens) in concentration camps based solely on race.</li>
+</ul></li>
+<li>1965-1973: <strong>Operation Rolling Thunder</strong>:
+<ul>
+<li>The indiscriminate bombing of North Vietnam, Laos, and Cambodia dropped more than 7.5 million tons of explosives (surpassing all of WWII), killing hundreds of thousands of civilians. The use of chemical defoliants like Agent Orange continues to cause birth defects and environmental damage.</li>
+</ul></li>
+<li>1968: <strong>The My Lai Massacre</strong>:
+<ul>
+<li>U.S. Army soldiers killed between 347 and 504 unarmed Vietnamese civilians, including women, children, and infants. The military attempted a cover-up, and only one soldier was convicted.</li>
+</ul></li>
+<li>1973-Present: <strong>Support for Authoritarian Regimes</strong>:
+<ul>
+<li>Consistent foreign policy of backing brutal dictatorships for geopolitical or economic gain, including: Augusto Pinochet in Chile (overthrow of Allende), the Suharto regime in Indonesia (approved of the invasion of East Timor), and the Salvadoran junta during its civil war.</li>
+</ul></li>
+<li>1991 &amp; 2003: <strong>The Iraq Wars &amp; Sanctions</strong>:
+<ul>
+<li>The 1991 Gulf War’s bombing of civilian infrastructure and the subsequent sanctions regime (1990-2003) are estimated by UN agencies to have contributed to the deaths of over 500,000 Iraqi children. The 2003 invasion, based on fabricated WMD intelligence, led to hundreds of thousands of civilian deaths and regional destabilization.</li>
+</ul></li>
+<li>2001-Present: <strong>The War on Terror &amp; Extrajudicial Practices</strong>:
+<ul>
+<li>The establishment of the Guantanamo Bay detention camp (operating outside international law), the use of “enhanced interrogation techniques” (widely condemned as torture), and a global program of drone strikes causing significant civilian casualties.</li>
+</ul></li>
+<li>2019-Present: <strong>Family Separation Policy &amp; Mass Deportation</strong>:
+<ul>
+<li>The systematic separation of thousands of migrant children from their parents at the U.S.-Mexico border as a deliberate tactic of deterrence, causing severe, lasting trauma.</li>
+<li>Immigration and Customs Enforcement (ICE) received a massive budget boost to $28 Billion to enforce mass deportation.</li>
+</ul></li>
+<li>2023-Present: <strong>Funding the Gaza Genocide</strong>:
+<ul>
+<li>The US has given $21.7 Billion dollars in military aid to Israel since 2023, all the while has continue to carry out the largest genocide in recent history, killing over 66,000 civilians, 50% of whom were women and children.</li>
+</ul></li>
+</ul>
+<div class="video-container">
+<iframe width="1920" height="765" src="https://www.youtube.com/embed/5BXtgq0Nhsc" title="Noam Chomsky - The Crimes of U.S. Presidents" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+</div>
+<p>Just look at the history of South America ever since the establishment of the <a href="https://en.wikipedia.org/wiki/Monroe_Doctrine">Monroe Doctrine</a>.</p>
+<p>Country after country the US has backed the overthrow of popularly elected leaders in favor of capitalist backed cronies to protect American business interests.</p>
+<div class="video-container">
+<iframe width="100%" src="https://www.youtube.com/embed/RJLA2_Ho7X0?t=1796" title="Project Cybersyn &amp; The CIA Coup in Chile (Full Documentary by Plastic Pills)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+</div>
+<p>This is a Pattern, Not an Exception!</p>
+<p>This list is not comprehensive but illustrative. It reveals that many of America’s gravest moral failures were not accidents or the work of “a few bad apples,” but were often official policy, enabled by law, fueled by racism or ideological fervor, and defended by appeals to necessity or superiority.</p>
+<div class="video-container">
+<iframe width="100%" src="https://www.youtube.com/embed/V_rnL_xBcDA" title="Gaza before and after: new video shows extent of Israel&#39;s destruction" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+</div>
+<h2 id="part-3.-american-culture">Part 3. American Culture</h2>
+<p>Now you might say:</p>
+<p>“Well okay, but that’s the Government, not the people. Sure American business and political elites are conspiring to topple world governments and engineer human tragedies. But that’s not you and me doing any of that. What makes America really number 1 is our culture!”</p>
+<p>So lets discuss that.</p>
+<p>We’re all aware of the sort of paradox of America’s multi-cultural identity. The best culture in the world, yet its just a recycling of every other culture.</p>
+<p>The best food in the world! Except what’s the most American food? A hotdog, a _hamburg_er, <em>french</em> fries.</p>
+<p>Well how about movies and entertainment?</p>
+<p>Top 10 Highest Grossing Movies Past 10 Years</p>
+<table>
+<thead>
+<tr class="header">
+<th>Year</th>
+<th>Film Title</th>
+<th>Lifetime Gross</th>
+<th>Overall Rank</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>2019</td>
+<td>Avengers: Endgame</td>
+<td>$2,799,439,100</td>
+<td>#2</td>
+</tr>
+<tr class="even">
+<td>2022</td>
+<td>Avatar: The Way of Water</td>
+<td>$2,343,096,253</td>
+<td>#3</td>
+</tr>
+<tr class="odd">
+<td>2015</td>
+<td>Star Wars: Episode VII - The Force Awake</td>
+<td>$2,071,310,218</td>
+<td>#6</td>
+</tr>
+<tr class="even">
+<td>2018</td>
+<td>Avengers: Infinity War</td>
+<td>$2,052,415,039</td>
+<td>#7</td>
+</tr>
+<tr class="odd">
+<td>2021</td>
+<td>Spider-Man: No Way Home</td>
+<td>$1,921,426,073</td>
+<td>#8</td>
+</tr>
+<tr class="even">
+<td>2024</td>
+<td>Inside Out 2</td>
+<td>$1,698,863,816</td>
+<td>#9</td>
+</tr>
+<tr class="odd">
+<td>2023</td>
+<td>Barbie</td>
+<td>$1,447,138,421</td>
+<td>#16</td>
+</tr>
+<tr class="even">
+<td>2017</td>
+<td>Star Wars: Episode VIII - The Last Jedi</td>
+<td>$1,334,407,706</td>
+<td>#22</td>
+</tr>
+<tr class="odd">
+<td>2016</td>
+<td>Captain America: Civil War</td>
+<td>$1,155,046,416</td>
+<td>#30</td>
+</tr>
+<tr class="even">
+<td>2025</td>
+<td>Lilo &amp; Stitch</td>
+<td>$1,037,574,062</td>
+<td>#50</td>
+</tr>
+</tbody>
+</table>
+<p>Source: <a href="https://www.boxofficemojo.com/chart/top_lifetime_gross/?area=XWW">boxofficemojo.com Top Lifetime Grosses</a></p>
+<p>You might notice not a single one of those is an original property or idea. The only one on the list that’s not explicitly a sequel is a movie based on a plastic toy and sponsored by Matel. Yet they continue to make billions, so why would they ever stop making them?</p>
+<p>I wrote a custom perl script just to sort that data btw. All for you buddy!</p>
+<figure>
+<img src="/static/img/cultural_ghetto.png" alt="" /><figcaption>Cultural Ghetto</figcaption>
+</figure>
+<div class="video-container">
+<iframe width="100%" src="https://www.youtube.com/embed/LCpF7z4JszE" title="Our Culture is Eating Itself" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+</div>
+<h3 id="the-death-of-the-american-dream">The Death of The American Dream</h3>
+<p>Well fine okay sure all of our media has become commercialized, generalized, and made bland soulless. But at least we still have the American Dream right?</p>
+<p>Between 1970 and today, home prices have increased well over 1000% in some areas. In 1970 the median home prices was around $27,000. Today its $500,000!</p>
+<p><a href="https://fred.stlouisfed.org/series/ASPUS">St Louis Fed - stlouisfed.org</a></p>
+<p>And the price to income ratio for houses continues to get worse.</p>
+<figure>
+<img src="https://www.jchs.harvard.edu/sites/default/files/inline-images/harvard_jchs_price_income_whitney_hermann_2024_fig_2_sm_0.png" alt="" /><figcaption>Figure 2: Home Price-to-Income Ratios Continued to Rise Nationally and in Many Large Metros in 2022</figcaption>
+</figure>
+<ul>
+<li><a href="https://www.jchs.harvard.edu/blog/home-price-income-ratio-reaches-record-high-0">Home Price-to-Income Ratio Reaches Record High - harvard.edu</a></li>
+</ul>
+<h2 id="conclusion">Conclusion</h2>
+<h3 id="so-what-the-fuck-is-america-actually">So What the Fuck is America Actually?</h3>
+<p>The United States of America is an empire and an oligarchy.</p>
+<p>What you’ll hear all over the news media is that with the rise of Trump, The US has taken a hard right turn into fascism. And while its true that Trump is a prototypical fascist, checking every single box perfectly, this administration is simply a continuation of trends that have deep roots in American history.</p>
+<p>The truth is, it has always been the case that the American elite run the show without any regard for the interests of the majority.</p>
+<p><a href="https://www.almendron.com/tribuna/wp-content/uploads/2014/04/testing-theories-of-american-politics-elites-interest-groups-and-average-citizens.pdf">Testing Theories of American Politics: Elites, Interest Groups, and Average Citizens</a></p>
+<h3 id="the-pipeline-from-patriotism-into-nationalism">The Pipeline from Patriotism into Nationalism</h3>
+<p>But why does any of this matter. Can’t we just pretend we live in the best country on earth even if the reality is a bit less glamorous. What’s the harm in having some national pride?</p>
+<p>What an ironically prevalent sentiment to be found in a nation so caught up on “individuality.”</p>
+<blockquote>
+<p>Patriotism is a healthy love and devotion to one’s country, focused on its ideals and working for its betterment, even with criticism; while nationalism is an extreme, often exclusionary belief in national superiority, prioritizing one nation’s interests above others, fostering division, and potentially leading to animosity or conflict.</p>
+</blockquote>
+<p><a href="https://www.britannica.com/topic/Nationalism-vs-Patriotism-Whats-the-Difference">Nationalism vs. Patriotism: What’s the Difference? - britannica.com</a></p>
+<p>A statement like; “America is the best country on Earth!” might seem patriotic, but it is in fact nationalistic.</p>
+<p>Same goes for statements like “Germany is for the Germans” or “America First.”</p>
+<p>You might remember the “America First Committee” (AFC) infamously held a Nazi rally in Madison Square Garden in 1939.</p>
+<div class="video-container">
+<iframe width="100%" src="https://www.youtube.com/embed/NC1MNGFHR58" title="A Night at the Garden | An American Nazi Rally in 1939 | POV" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+</div>
+<h2 id="final-thoughts">Final Thoughts</h2>
+<p><a href="/static/img/nyt-deportation-map.png">NYT Deportation Map</a></p>
+<ul>
+<li><a href="https://www.nytimes.com/interactive/2025/12/22/us/trump-immigration-deportation-network-ice-arrests.html">Inside the Deportation Machine - nytimes.com</a></li>
+</ul>
+<p>Remember most immigration violations, like overstaying a visa or being in the US without authorization, are civil offenses, not criminal.</p>
+<figure>
+<img src="https://time.com/redesign/_next/image/?url=https%3A%2F%2Fapi.time.com%2Fwp-content%2Fuploads%2F2025%2F11%2Ftime-top-100-photos-2025-064.jpg&amp;w=3840&amp;q=75" alt="" /><figcaption>A person is detained by U.S. Border Patrol agents inside a fast food restaurant under construction in Charlotte, N.C. on Nov. 19. The man sustained injuries to his face while agents wrestled him to the ground, after he tried to run. Federal Agents are carrying out “Operation Charlotte’s Web,” an immigration enforcement surge across the Charlotte region. Ryan Murphy—Getty Images</figcaption>
+</figure>
+<p>A person is detained by U.S. Border Patrol agents inside a fast food restaurant under construction in Charlotte, N.C. on Nov. 19. The man sustained injuries to his face while agents wrestled him to the ground, after he tried to run. Federal Agents are carrying out “Operation Charlotte’s Web,” an immigration enforcement surge across the Charlotte region. Ryan Murphy—Getty Images</p>
+<p>An appeal to Krause:</p>
+<div class="video-container">
+<iframe width="100%" src="https://www.youtube.com/embed/WXg5ZcBYDCY" title="Joe Rogan Exposes ICE Failures" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+</div>
+<p>More people have died in ICE detention this past year under Trump, than the four previous years under Biden combined.</p>
+<blockquote>
+<p>I had always hoped that this land might become a safe and agreeable asylum to the virtuous and persecuted part of mankind, to whatever nation they might belong.</p>
+</blockquote>
+<ul>
+<li>George Washington</li>
+</ul>
+</div>
+    <footer>
+        <p>&copy; 2025 Johnlradford.io. All rights reserved.</p>
+        <p><a href="/blog">Blog</a> | <a href="/">Home</a></p>
+    </footer>
+</body>
+</html>

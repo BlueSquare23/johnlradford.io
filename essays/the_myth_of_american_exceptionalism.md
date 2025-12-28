@@ -18,7 +18,7 @@ about the founding and history of this country is a myth.
 Likewise, so are many of the stories we're told about its values and greatest
 beliefs.
 
-## Part 1. America Exceptionalism By the Numbers 
+## Part 1. American Exceptionalism By the Numbers 
 
 By definition, to be _"exceptional"_ is to be out of the ordinary.
 
@@ -65,7 +65,9 @@ So how does this compare to other wealthy industrialized nations?
 Well I found this cool site that list all of these _Program for the
 International Assessment of Adult Competencies (PIAAC)_ scores:
 
-<iframe width='550' height='620' frameBorder='0' src='//www.compareyourcountry.org/adult-skills?cr=oecd&lg=en&page=0'></iframe>
+```{=html}
+<iframe width='550' height='620' frameBorder='0' src='https://www.compareyourcountry.org/adult-skills?lg=en&cr=oecd&page=0'></iframe>
+```
 
 Doesn't appear to be very exceptional to me. Looks kinda below average
 actually, hrmmm...
@@ -120,7 +122,9 @@ Japan, UK, Canada, Australia, etc.
 
 ### Wealth Inequality
 
+```{=html}
 <div class='tableauPlaceholder' id='viz1766951629017' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;gl&#47;globalbillionairewealthgain20242025&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='globalbillionairewealthgain20242025&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;gl&#47;globalbillionairewealthgain20242025&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1766951629017');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='650px';vizElement.style.height='527px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='650px';vizElement.style.height='527px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+```
 
 - [Global Wealth Inequality - inequality.org](https://inequality.org/facts/global-inequality/#global-wealth-inequality)
 
@@ -142,7 +146,9 @@ Japan, UK, Canada, Australia, etc.
 But surely with all that money we're spending on it we're getting better
 outcomes right?
 
+```{=html}
 <iframe title="The United States has worse healthcare outcomes compared to other wealthy countries" aria-label="Scatter Plot" id="datawrapper-chart-YYJYe" src="https://datawrapper.dwcdn.net/YYJYe/5/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="515" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",function(a){if(void 0!==a.data["datawrapper-height"]){var e=document.querySelectorAll("iframe");for(var t in a.data["datawrapper-height"])for(var r,i=0;r=e[i];i++)if(r.contentWindow===a.source){var d=a.data["datawrapper-height"][t]+"px";r.style.height=d}}})}();</script>
+```
 
 ### Gun Violence
 
@@ -157,7 +163,9 @@ More than car crashes or cancer or anything else.
 
 ### These Are Choices
 
-<iframe width="100%" src="https://www.youtube.com/embed/rDK2chgNPZM" title="Ted Turner asks Carl Sagan if he is a socialist." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="video-container">
+<iframe  width="100%" src="https://www.youtube.com/embed/rDK2chgNPZM" title="Ted Turner asks Carl Sagan if he is a socialist." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 Now I'd disagree on one thing with Carl Sagan, "we" didn't do anything. I don't
 believe the people have popular control over the government, so blaming
@@ -219,7 +227,10 @@ States. So here are just some of the hight lights.
 * 2023-Present: **Funding the Gaza Genocide**:
   - The US has given $21.7 Billion dollars in military aid to Israel since 2023, all the while has continue to carry out the largest genocide in recent history, killing over 66,000 civilians, 50% of whom were women and children.
 
+
+<div class="video-container">
 <iframe width="1920" height="765" src="https://www.youtube.com/embed/5BXtgq0Nhsc" title="Noam Chomsky - The Crimes of U.S. Presidents" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 Just look at the history of South America ever since the establishment of the
 [Monroe Doctrine](https://en.wikipedia.org/wiki/Monroe_Doctrine).
@@ -228,7 +239,9 @@ Country after country the US has backed the overthrow of popularly elected
 leaders in favor of capitalist backed cronies to protect American business
 interests.
 
+<div class="video-container">
 <iframe width="100%" src="https://www.youtube.com/embed/RJLA2_Ho7X0?t=1796" title="Project Cybersyn &amp; The CIA Coup in Chile (Full Documentary by Plastic Pills)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 This is a Pattern, Not an Exception!
 
@@ -237,7 +250,9 @@ America's gravest moral failures were not accidents or the work of "a few bad
 apples," but were often official policy, enabled by law, fueled by racism or
 ideological fervor, and defended by appeals to necessity or superiority.
 
+<div class="video-container">
 <iframe width="100%" src="https://www.youtube.com/embed/V_rnL_xBcDA" title="Gaza before and after: new video shows extent of Israel&#39;s destruction" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 ## Part 3. American Culture
 
@@ -284,7 +299,10 @@ I wrote a custom perl script just to sort that data btw. All for you buddy!
 
 ![Cultural Ghetto](/static/img/cultural_ghetto.png)
 
+
+<div class="video-container">
 <iframe width="100%" src="https://www.youtube.com/embed/LCpF7z4JszE" title="Our Culture is Eating Itself" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 ### The Death of The American Dream
 
@@ -343,7 +361,9 @@ Same goes for statements like "Germany is for the Germans" or "America First."
 You might remember the "America First Committee" (AFC) infamously held a Nazi
 rally in Madison Square Garden in 1939.
 
+<div class="video-container">
 <iframe width="100%" src="https://www.youtube.com/embed/NC1MNGFHR58" title="A Night at the Garden | An American Nazi Rally in 1939 | POV" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 ## Final Thoughts
 
@@ -360,7 +380,9 @@ A person is detained by U.S. Border Patrol agents inside a fast food restaurant 
 
 An appeal to Krause:
 
+<div class="video-container">
 <iframe width="100%" src="https://www.youtube.com/embed/WXg5ZcBYDCY" title="Joe Rogan Exposes ICE Failures" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 More people have died in ICE detention this past year under Trump, than the
 four previous years under Biden combined.
