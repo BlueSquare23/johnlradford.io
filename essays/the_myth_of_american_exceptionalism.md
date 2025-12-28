@@ -184,6 +184,47 @@ feeding their populations. But they don't have the history and grandeur of the
 United States! After all we're the world first and oldest Democracy. We're a
 nation of immigrants with liberty, freedom, and justice for all! Right?"
 
+Well we don't have to go into atrocity committed in the name of the United
+States. So here are just some of the hight lights.
+
+* 1492-1900: **The Largest Ethnic Cleansing Campaign in Human History**":
+  - 50-60 Million people pre-colonisation, native population reduced by 95%
+* 1492-1865: **American Chattel Slavery**:
+  - 12.5 million Africans stolen, 2 million died in the Middle Passage. ~400 Years of forced labor.
+* 1846-1848: **The Mexican-American War**:
+  - A war of expansionism based on the belief of Manifest Destiny, resulting in the U.S. annexing 55% of Mexico's territory (modern-day California, Arizona, New Mexico, Texas, etc.).
+* 1864: **The Sand Creek Massacre**: 
+  - U.S. Army troops under Colonel John Chivington attacked and destroyed a village of Cheyenne and Arapaho, killing and mutilating an estimated 230 Native Americans, mostly women, children, and the elderly.
+* 1899-1902: **The Philippine-American War**:
+  - A brutal conflict following the Spanish-American War where the U.S. suppressed Filipino independence. Features include the widespread use of "water cure" torture, concentration camps for civilians, and the killing of over 200,000 Filipino civilians, many from famine and disease.
+* 1921: **The Tulsa Race Massacre**:
+  - A white mob, aided by local authorities, destroyed the prosperous Black neighborhood of Greenwood, known as "Black Wall Street." An estimated 300 Black citizens were killed, and 10,000 were left homeless.
+* 1942-1945: **Japanese American Internment**: 
+  - The forced relocation and incarceration of approximately 120,000 people of Japanese ancestry (over 60% of whom were U.S. citizens) in concentration camps based solely on race.
+* 1965-1973: **Operation Rolling Thunder**:
+  - The indiscriminate bombing of North Vietnam, Laos, and Cambodia dropped more than 7.5 million tons of explosives (surpassing all of WWII), killing hundreds of thousands of civilians. The use of chemical defoliants like Agent Orange continues to cause birth defects and environmental damage.
+* 1968: **The My Lai Massacre**:
+  - U.S. Army soldiers killed between 347 and 504 unarmed Vietnamese civilians, including women, children, and infants. The military attempted a cover-up, and only one soldier was convicted.
+* 1973-Present: **Support for Authoritarian Regimes**:
+  - Consistent foreign policy of backing brutal dictatorships for geopolitical or economic gain, including: Augusto Pinochet in Chile (overthrow of Allende), the Suharto regime in Indonesia (approved of the invasion of East Timor), and the Salvadoran junta during its civil war.
+* 1991 & 2003: **The Iraq Wars & Sanctions**:
+  - The 1991 Gulf War's bombing of civilian infrastructure and the subsequent sanctions regime (1990-2003) are estimated by UN agencies to have contributed to the deaths of over 500,000 Iraqi children. The 2003 invasion, based on fabricated WMD intelligence, led to hundreds of thousands of civilian deaths and regional destabilization.
+* 2001-Present: **The War on Terror & Extrajudicial Practices**: 
+  - The establishment of the Guantanamo Bay detention camp (operating outside international law), the use of "enhanced interrogation techniques" (widely condemned as torture), and a global program of drone strikes causing significant civilian casualties.
+* 2019-Present: **Family Separation Policy & Mass Deportation**:
+  - The systematic separation of thousands of migrant children from their parents at the U.S.-Mexico border as a deliberate tactic of deterrence, causing severe, lasting trauma.
+  - Immigration and Customs Enforcement (ICE) received a massive budget boost to $28 Billion to enforce mass deportation.
+
+<iframe width="1920" height="765" src="https://www.youtube.com/embed/5BXtgq0Nhsc" title="Noam Chomsky - The Crimes of U.S. Presidents" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+Just look at the history of South America ever since the establishment of the
+[Monroe Doctrine](https://en.wikipedia.org/wiki/Monroe_Doctrine).
+
+Country after country the US has backed the overthrow of popularly elected
+leaders in favor of capitalist backed cronies to protect American business
+interests.
+
+<iframe width="100%" src="https://www.youtube.com/embed/RJLA2_Ho7X0?t=1796" title="Project Cybersyn &amp; The CIA Coup in Chile (Full Documentary by Plastic Pills)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Part 3. American Culture
 
@@ -222,6 +263,9 @@ I wrote a custom perl script just to sort that data btw. All for you buddy!
 ![Cultural Ghetto](/static/img/cultural_ghetto.png)
 
 <iframe width="100%" src="https://www.youtube.com/embed/LCpF7z4JszE" title="Our Culture is Eating Itself" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+### The Death of The American Dream
+
 
 
 ## So What the Fuck is America Actually?
