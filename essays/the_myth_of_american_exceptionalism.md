@@ -187,6 +187,8 @@ nation of immigrants with liberty, freedom, and justice for all! Right?"
 Well we don't have to go into atrocity committed in the name of the United
 States. So here are just some of the hight lights.
 
+![Saigon Execution by Eddie Adams, Associated Press](https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/newscms/2018_05/2088766/ap_746400184512.jpg)
+
 * 1492-1900: **The Largest Ethnic Cleansing Campaign in Human History**":
   - 50-60 Million people pre-colonisation, native population reduced by 95%
 * 1492-1865: **American Chattel Slavery**:
@@ -214,6 +216,8 @@ States. So here are just some of the hight lights.
 * 2019-Present: **Family Separation Policy & Mass Deportation**:
   - The systematic separation of thousands of migrant children from their parents at the U.S.-Mexico border as a deliberate tactic of deterrence, causing severe, lasting trauma.
   - Immigration and Customs Enforcement (ICE) received a massive budget boost to $28 Billion to enforce mass deportation.
+* 2023-Present: **Funding the Gaza Genocide**:
+  - The US has given $21.7 Billion dollars in military aid to Israel since 2023, all the while has continue to carry out the largest genocide in recent history, killing over 66,000 civilians, 50% of whom were women and children.
 
 <iframe width="1920" height="765" src="https://www.youtube.com/embed/5BXtgq0Nhsc" title="Noam Chomsky - The Crimes of U.S. Presidents" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -226,7 +230,25 @@ interests.
 
 <iframe width="100%" src="https://www.youtube.com/embed/RJLA2_Ho7X0?t=1796" title="Project Cybersyn &amp; The CIA Coup in Chile (Full Documentary by Plastic Pills)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+This is a Pattern, Not an Exception!
+
+This list is not comprehensive but illustrative. It reveals that many of
+America's gravest moral failures were not accidents or the work of "a few bad
+apples," but were often official policy, enabled by law, fueled by racism or
+ideological fervor, and defended by appeals to necessity or superiority.
+
+<iframe width="100%" src="https://www.youtube.com/embed/V_rnL_xBcDA" title="Gaza before and after: new video shows extent of Israel&#39;s destruction" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Part 3. American Culture
+
+Now you might say:
+
+"Well okay, but that's the Government, not the people. Sure American business
+and political elites are conspiring to topple world governments and engineer
+human tragedies. But that's not you and me doing any of that. What makes
+America really number 1 is our culture!"
+
+So lets discuss that.
 
 We're all aware of the sort of paradox of America's multi-cultural identity.
 The best culture in the world, yet its just a recycling of every other culture.
@@ -266,12 +288,23 @@ I wrote a custom perl script just to sort that data btw. All for you buddy!
 
 ### The Death of The American Dream
 
+Well fine okay sure all of our media has become commercialized, generalized,
+and made bland soulless. But at least we still have the American Dream right?
 
+Between 1970 and today, home prices have increased well over 1000% in some
+areas. In 1970 the median home prices was around $27,000. Today its $500,000! 
 
-## So What the Fuck is America Actually?
+[St Louis Fed - stlouisfed.org](https://fred.stlouisfed.org/series/ASPUS)
 
-Okay this is the part where we get into more of Johnny's opinions on the
-subject. But I'm not alone in thinking this way. 
+And the price to income ratio for houses continues to get worse.
+
+![Figure 2: Home Price-to-Income Ratios Continued to Rise Nationally and in Many Large Metros in 2022](https://www.jchs.harvard.edu/sites/default/files/inline-images/harvard_jchs_price_income_whitney_hermann_2024_fig_2_sm_0.png)
+
+- [Home Price-to-Income Ratio Reaches Record High - harvard.edu](https://www.jchs.harvard.edu/blog/home-price-income-ratio-reaches-record-high-0)
+
+## Conclusion
+
+### So What the Fuck is America Actually?
 
 The United States of America is an empire and an oligarchy. 
 
@@ -280,15 +313,61 @@ has taken a hard right turn into fascism. And while its true that Trump is a
 prototypical fascist, checking every single box perfectly, this administration
 is simply a continuation of trends that have deep roots in American history.
 
+The truth is, it has always been the case that the American elite run the show
+without any regard for the interests of the majority.
 
+[Testing Theories of American Politics: Elites, Interest Groups, and Average Citizens](https://www.almendron.com/tribuna/wp-content/uploads/2014/04/testing-theories-of-american-politics-elites-interest-groups-and-average-citizens.pdf)
 
-https://www.almendron.com/tribuna/wp-content/uploads/2014/04/testing-theories-of-american-politics-elites-interest-groups-and-average-citizens.pdf
+### The Pipeline from Patriotism into Nationalism
 
+But why does any of this matter. Can't we just pretend we live in the best
+country on earth even if the reality is a bit less glamorous. What's the harm
+in having some national pride?
 
+What an ironically prevalent sentiment to be found in a nation so caught up on
+"individuality."
 
+> Patriotism is a healthy love and devotion to one's country, focused on its
+> ideals and working for its betterment, even with criticism; while nationalism
+> is an extreme, often exclusionary belief in national superiority,
+> prioritizing one nation's interests above others, fostering division, and
+> potentially leading to animosity or conflict. 
 
-## Patriotism vs Nationalism
+[Nationalism vs. Patriotism: What’s the Difference? - britannica.com](https://www.britannica.com/topic/Nationalism-vs-Patriotism-Whats-the-Difference)
 
+A statement like; "America is the best country on Earth!" might seem patriotic,
+but it is in fact nationalistic.
 
+Same goes for statements like "Germany is for the Germans" or "America First."
 
+You might remember the "America First Committee" (AFC) infamously held a Nazi
+rally in Madison Square Garden in 1939.
+
+<iframe width="100%" src="https://www.youtube.com/embed/NC1MNGFHR58" title="A Night at the Garden | An American Nazi Rally in 1939 | POV" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## Final Thoughts
+
+[NYT Deportation Map](/static/img/nyt-deportation-map.png)
+
+- [Inside the Deportation Machine - nytimes.com](https://www.nytimes.com/interactive/2025/12/22/us/trump-immigration-deportation-network-ice-arrests.html)
+
+Remember most immigration violations, like overstaying a visa or being in the
+US without authorization, are civil offenses, not criminal.
+
+![A person is detained by U.S. Border Patrol agents inside a fast food restaurant under construction in Charlotte, N.C. on Nov. 19. The man sustained injuries to his face while agents wrestled him to the ground, after he tried to run. Federal Agents are carrying out "Operation Charlotte's Web," an immigration enforcement surge across the Charlotte region. Ryan Murphy—Getty Images](https://time.com/redesign/_next/image/?url=https%3A%2F%2Fapi.time.com%2Fwp-content%2Fuploads%2F2025%2F11%2Ftime-top-100-photos-2025-064.jpg&w=3840&q=75)
+
+A person is detained by U.S. Border Patrol agents inside a fast food restaurant under construction in Charlotte, N.C. on Nov. 19. The man sustained injuries to his face while agents wrestled him to the ground, after he tried to run. Federal Agents are carrying out "Operation Charlotte's Web," an immigration enforcement surge across the Charlotte region. Ryan Murphy—Getty Images
+
+An appeal to Krause:
+
+<iframe width="100%" src="https://www.youtube.com/embed/WXg5ZcBYDCY" title="Joe Rogan Exposes ICE Failures" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+More people have died in ICE detention this past year under Trump, than the
+four previous years under Biden combined.
+
+> I had always hoped that this land might become a safe and agreeable asylum to
+> the virtuous and persecuted part of mankind, to whatever nation they might
+> belong.
+
+- George Washington
 
