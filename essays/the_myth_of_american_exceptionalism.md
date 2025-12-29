@@ -387,6 +387,8 @@ previous four years under Biden combined.
 
 ![CoreCivic & GeoGroups Stock Price After Trump's 2024 Election Win](/static/img/corecivic_and_geogroup_stockprice.png)
 
+* [Private prisons, a "Trump trade"](https://www.axios.com/2025/02/05/trump-private-prison-stocks-geo-corecivic)
+
 > I had always hoped that this land might become a safe and agreeable asylum to
 > the virtuous and persecuted part of mankind, to whatever nation they might
 > belong.
