@@ -192,8 +192,8 @@ feeding their populations. But they don't have the history and grandeur of the
 United States! After all we're the world first and oldest Democracy. We're a
 nation of immigrants with liberty, freedom, and justice for all! Right?"
 
-Well we don't have to go into atrocity committed in the name of the United
-States. So here are just some of the hight lights.
+Well we don't have to go into every atrocity committed in the name of the
+United States. So here are some of the hightlights!
 
 ![Saigon Execution by Eddie Adams, Associated Press](https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/newscms/2018_05/2088766/ap_746400184512.jpg)
 
@@ -367,7 +367,7 @@ rally in Madison Square Garden in 1939.
 
 ## Final Thoughts
 
-[NYT Deportation Map](/static/img/nyt-deportation-map.png)
+![NYT Deportation Map](/static/img/nyt-deportation-map.png)
 
 - [Inside the Deportation Machine - nytimes.com](https://www.nytimes.com/interactive/2025/12/22/us/trump-immigration-deportation-network-ice-arrests.html)
 
@@ -376,8 +376,6 @@ US without authorization, are civil offenses, not criminal.
 
 ![A person is detained by U.S. Border Patrol agents inside a fast food restaurant under construction in Charlotte, N.C. on Nov. 19. The man sustained injuries to his face while agents wrestled him to the ground, after he tried to run. Federal Agents are carrying out "Operation Charlotte's Web," an immigration enforcement surge across the Charlotte region. Ryan Murphy—Getty Images](https://time.com/redesign/_next/image/?url=https%3A%2F%2Fapi.time.com%2Fwp-content%2Fuploads%2F2025%2F11%2Ftime-top-100-photos-2025-064.jpg&w=3840&q=75)
 
-A person is detained by U.S. Border Patrol agents inside a fast food restaurant under construction in Charlotte, N.C. on Nov. 19. The man sustained injuries to his face while agents wrestled him to the ground, after he tried to run. Federal Agents are carrying out "Operation Charlotte's Web," an immigration enforcement surge across the Charlotte region. Ryan Murphy—Getty Images
-
 An appeal to Krause:
 
 <div class="video-container">
@@ -385,7 +383,9 @@ An appeal to Krause:
 </div>
 
 More people have died in ICE detention this past year under Trump, than the
-four previous years under Biden combined.
+previous four years under Biden combined.
+
+![CoreCivic & GeoGroups Stock Price After Trump's 2024 Election Win](/static/img/corecivic_and_geogroup_stockprice.png)
 
 > I had always hoped that this land might become a safe and agreeable asylum to
 > the virtuous and persecuted part of mankind, to whatever nation they might
