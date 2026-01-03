@@ -178,7 +178,7 @@ ownership. They have no incentive to change the status quo.
 Instead we need to establish real popular control over the government with
 robust mechanisms to keep private interests at bay.
 
-> The solution to the ills of Democracy is more Democracy.
+> _"The solution to the ills of Democracy is more Democracy."_
 
 - John Dewey, American Philosopher & Educator 
 
@@ -191,6 +191,10 @@ European and Asian countries that are beating us at reading, breading, and
 feeding their populations. But they don't have the history and grandeur of the
 United States! After all we're the world first and oldest Democracy. We're a
 nation of immigrants with liberty, freedom, and justice for all! Right?"
+
+![Washington Crossing the Delaware by Emanuel Leutze, MMA-NYC, 1851 - Wikipedia.org](https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Washington_Crossing_the_Delaware_by_Emanuel_Leutze%2C_MMA-NYC%2C_1851.jpg/2560px-Washington_Crossing_the_Delaware_by_Emanuel_Leutze%2C_MMA-NYC%2C_1851.jpg)
+
+### American Genocides, War Crimes, & Miscellaneous Atrocities
 
 Well we don't have to go into every atrocity committed in the name of the
 United States. So here are some of the hightlights!
@@ -227,6 +231,7 @@ United States. So here are some of the hightlights!
 * 2023-Present: **Funding the Gaza Genocide**:
   - The US has given $21.7 Billion dollars in military aid to Israel since 2023, all the while has continue to carry out the largest genocide in recent history, killing over 66,000 civilians, 50% of whom were women and children.
 
+![A Slave Auction, United States Of America, US, USA, 1870s Engraving. (Photo by: Universal History Archive/Universal Images Group via Getty Images)](https://res.cloudinary.com/aenetworks/image/upload/c_fill,ar_2,w_3840,h_1920,g_auto/dpr_auto/f_auto/q_auto:eco/v1/slavery-in-america-gettyimages-464757479?_a=BAVAZGID0)
 
 <div class="video-container">
 <iframe width="1920" height="765" src="https://www.youtube.com/embed/5BXtgq0Nhsc" title="Noam Chomsky - The Crimes of U.S. Presidents" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -243,7 +248,7 @@ interests.
 <iframe width="100%" src="https://www.youtube.com/embed/RJLA2_Ho7X0?t=1796" title="Project Cybersyn &amp; The CIA Coup in Chile (Full Documentary by Plastic Pills)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
-This is a Pattern, Not an Exception!
+### This is a Pattern, Not an Exception!
 
 This list is not comprehensive but illustrative. It reveals that many of
 America's gravest moral failures were not accidents or the work of "a few bad
@@ -252,6 +257,27 @@ ideological fervor, and defended by appeals to necessity or superiority.
 
 <div class="video-container">
 <iframe width="100%" src="https://www.youtube.com/embed/V_rnL_xBcDA" title="Gaza before and after: new video shows extent of Israel&#39;s destruction" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+I sent this to my buddy Zach too and here's what he had to say about it.
+
+> These aren't actions done just to be evil for the hell of it. The extreme
+> exploitation of Black people through slavery and Manifest Destiny and the
+> ethnic cleansing of Native Americans are what allowed the owning class to
+> prosper as much as it did. 
+> 
+> And that's not all in the past. We went to war in the Middle East for oil and
+> are ramping things up with Venezuela now that we've discovered they have the
+> largest oil reserves in the world.
+
+- Zach Scheider
+
+And sure enough history repeats itself:
+
+![Global Crude Oil Reserves by Country - Alnoor, A. H. (2010). Effective Project Management of Oil & Gas Projects](/static/img/Global-crude-oil-reserves-by-country.png)
+
+<div class="video-container">
+<iframe width="471" height="838" src="https://www.youtube.com/embed/zi8MoU_XJ-M" title="Helicopters fly over Caracas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 ## Part 3. American Culture
@@ -264,6 +290,8 @@ human tragedies. But that's not you and me doing any of that. What makes
 America really number 1 is our culture!"
 
 So lets discuss that.
+
+### A Culture Eating Its Own Tail
 
 We're all aware of the sort of paradox of America's multi-cultural identity.
 The best culture in the world, yet its just a recycling of every other culture.
@@ -297,8 +325,7 @@ would they ever stop making them?
 
 I wrote a custom perl script just to sort that data btw. All for you buddy!
 
-![Cultural Ghetto](/static/img/cultural_ghetto.png)
-
+![Cultural Ghetto](/static/img/cultural_ghetto.gif)
 
 <div class="video-container">
 <iframe width="100%" src="https://www.youtube.com/embed/LCpF7z4JszE" title="Our Culture is Eating Itself" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -365,7 +392,7 @@ rally in Madison Square Garden in 1939.
 <iframe width="100%" src="https://www.youtube.com/embed/NC1MNGFHR58" title="A Night at the Garden | An American Nazi Rally in 1939 | POV" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
-## Final Thoughts
+### Immigration & Fascism
 
 ![NYT Deportation Map](/static/img/nyt-deportation-map.png)
 
@@ -387,11 +414,59 @@ previous four years under Biden combined.
 
 ![CoreCivic & GeoGroups Stock Price After Trump's 2024 Election Win](/static/img/corecivic_and_geogroup_stockprice.png)
 
-* [Private prisons, a "Trump trade"](https://www.axios.com/2025/02/05/trump-private-prison-stocks-geo-corecivic)
+* [Source: Private prisons, a "Trump trade"](https://www.axios.com/2025/02/05/trump-private-prison-stocks-geo-corecivic)
+
+> U.S. Immigration and Customs Enforcement officials are planning to spend $100
+> million over a one-year period to recruit gun rights supporters and military
+> enthusiasts through online influencers and a geo-targeted advertising
+> campaign, part of what the agency called a “wartime recruitment” strategy it
+> said was critical to hiring thousands of new deportation officers nationwide,
+> according to an internal document reviewed by The Washington Post.
+
+* [Source: ICE plans $100 million ‘wartime recruitment’ push targeting gun shows - washingtonpost.com](https://www.washingtonpost.com/technology/2025/12/31/ice-wartime-recruitment-push/)
+
+<div class="video-container">
+<iframe width="1375" height="773" src="https://www.youtube.com/embed/fonSwgNEVok?t=593" title="Top U.S. &amp; World Headlines — January 2, 2026" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 > I had always hoped that this land might become a safe and agreeable asylum to
 > the virtuous and persecuted part of mankind, to whatever nation they might
 > belong.
 
 - George Washington
+
+## Final Thoughts
+
+Its tempting to come away from this all feeling indifferent.
+
+"So what we're still the greatest country in the world!" 🦅🇺🇸
+
+- Krause, probably
+
+Whether that comes from the issues being too big to tackle and we feel like as
+individuals we have little agency, or because "its always been that way" and
+"change is messy."
+
+But this feeling of not only indifference, but embracing one's own indifference
+toward the _externalities_ of the system as long as we ourselves continue to
+benefit from it, is something I've best heard described as _"Zen Fascism"_.
+
+<div class="video-container">
+<iframe width="1375" height="773" src="https://www.youtube.com/embed/gtaTzFmAabk" title="Chapo Animated: Getting The Fear at TPUSA&#39;s Sexy CPAC Party" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+This is the part where I could make some cliche references to "the good parts"
+of America and what it means to be an American. Apple Pie on the Fourth of
+July, Democracy, Freedom, Liberty, Justice for All.
+
+But as we've seen that's more hypocrisy and lipstick on a pig. The virtues
+extolled by the most patriotic lie in stark contrast to history and reality.
+
+But there is still hope to be found in reality.
+
+<div class="video-container">
+<iframe width="1375" height="773" src="https://www.youtube.com/embed/MlP0nvJSshU&t=969s" title="The Socialist guide to surviving in Capitalism | Doing well isn&#39;t treason." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+I think we're in a barrel buddy.
 
