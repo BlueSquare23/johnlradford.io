@@ -237,8 +237,12 @@ United States. So here are some of the hightlights!
 <iframe width="1920" height="765" src="https://www.youtube.com/embed/5BXtgq0Nhsc" title="Noam Chomsky - The Crimes of U.S. Presidents" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
+### This is a Pattern, Not an Exception!
+
 Just look at the history of South America ever since the establishment of the
 [Monroe Doctrine](https://en.wikipedia.org/wiki/Monroe_Doctrine).
+
+![US Involvement in Latin America](/static/img/us_involvement_latin_america.jpg)
 
 Country after country the US has backed the overthrow of popularly elected
 leaders in favor of capitalist backed cronies to protect American business
@@ -248,9 +252,7 @@ interests.
 <iframe width="100%" src="https://www.youtube.com/embed/RJLA2_Ho7X0?t=1796" title="Project Cybersyn &amp; The CIA Coup in Chile (Full Documentary by Plastic Pills)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
-### This is a Pattern, Not an Exception!
-
-This list is not comprehensive but illustrative. It reveals that many of
+The above list is not comprehensive but illustrative. It reveals that many of
 America's gravest moral failures were not accidents or the work of "a few bad
 apples," but were often official policy, enabled by law, fueled by racism or
 ideological fervor, and defended by appeals to necessity or superiority.
@@ -279,6 +281,50 @@ And sure enough history repeats itself:
 <div class="video-container">
 <iframe width="471" height="838" src="https://www.youtube.com/embed/zi8MoU_XJ-M" title="Helicopters fly over Caracas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
+
+### Our Rights and Freedoms
+
+"Okay okay, but that's all foreign policy stuff and history. What makes America
+great today is our fundamental rights and liberties! We got ourselves a
+constitution!"
+
+Well lets examine those rights and see how they hold up to scrutiny.
+
+#### Freedom of Speech & The Right to A Fair Trial
+
+Sure you've got Freedom of Speech, till they want to shut you up. Take for
+example the case of Steven Donziger.
+
+Steven Donziger is an environmental rights lawyer. In the 90's he won a $9.5
+billion ($13 billion in 2024 dollars) lawsuit against Chevron on behalf of over
+30,000 farmers and Indigenous people who suffered damages and health problems
+resulting from oil spills.
+
+As a result, In 2011, Chevron filed a RICO (anti-corruption) suit against
+Steven Donziger and disbarred him. If you're not familiar with RICO, that's
+typically what they hit mobsters with. They then held him under house arrest
+for criminal contempt of court from 2019-2021, a combined total of 993 days
+under house arrest.
+
+He was convicted by a team of PRIVATE PROSECUTORS for the first time in US
+history. That's right, the judge allowed Chevron's lawyers to run the
+prosecution, not a prosecutor from the state. The judge was a Chevron investor
+and the law firm hired by Chevron for the case (Gibson, Dunn & Crutcher) was
+paid $30 million dollars from Chevron. There was no jury.
+
+He was sued for $60 billion dollars, the most of any individual in this history
+of the United States. They sentenced him to 4x times the maximum sentence for
+contempt of court, 60 days. He served 45 days before an appeals court let him
+go.
+
+Human rights campaigners called Chevron's actions an example of a strategic
+lawsuit against public participation (SLAPP). 
+
+<div class="video-container">
+<iframe width="1375" height="773" src="https://www.youtube.com/embed/9OtIAZMqrZE" title="The Environmental Disaster No One Knows About" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+[Steven Donziger - wikipedia.org](https://en.wikipedia.org/wiki/Steven_Donziger)
 
 ## Part 3. American Culture
 
