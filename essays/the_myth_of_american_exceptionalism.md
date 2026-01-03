@@ -462,7 +462,8 @@ July, Democracy, Freedom, Liberty, Justice for All.
 But as we've seen that's more hypocrisy and lipstick on a pig. The virtues
 extolled by the most patriotic lie in stark contrast to history and reality.
 
-But there is still hope to be found in reality.
+But there is still hope to be found in acknowledging the reality of our
+circumstances.
 
 <div class="video-container">
 <iframe width="1375" height="773" src="https://www.youtube.com/embed/MlP0nvJSshU" title="The Socialist guide to surviving in Capitalism | Doing well isn&#39;t treason." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
