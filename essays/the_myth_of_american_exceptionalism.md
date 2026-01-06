@@ -75,7 +75,7 @@ actually, hrmmm...
 ### Infant Mortality
 
 Well according the _CIA World Factbook_, the US is ranked 173rd out of 227
-countries. Now in terms of infant mortality, higher ranking means less dead
+countries. Now in terms of infant mortality, higher ranking means fewer dead
 babies. So no.1 is Afghanistan where on avg 100 / 1000 infants will die during
 child birth. In the US that number is 5.1 / 1000 (with that number jumping to
 10/1000 for African American women).
@@ -196,7 +196,7 @@ nation of immigrants with liberty, freedom, and justice for all! Right?"
 
 ### American Genocides, War Crimes, & Miscellaneous Atrocities
 
-Well we don't have to go into every atrocity committed in the name of the
+Well we don't have time to go into every atrocity committed in the name of the
 United States. So here are some of the hightlights!
 
 ![Saigon Execution by Eddie Adams, Associated Press](https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1500w,f_auto,q_auto:best/newscms/2018_05/2088766/ap_746400184512.jpg)
@@ -256,6 +256,8 @@ The above list is not comprehensive but illustrative. It reveals that many of
 America's gravest moral failures were not accidents or the work of "a few bad
 apples," but were often official policy, enabled by law, fueled by racism or
 ideological fervor, and defended by appeals to necessity or superiority.
+
+And this is the result...
 
 <div class="video-container">
 <iframe width="100%" src="https://www.youtube.com/embed/V_rnL_xBcDA" title="Gaza before and after: new video shows extent of Israel&#39;s destruction" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
