@@ -290,7 +290,49 @@ constitution!"
 
 Well lets examine those rights and see how they hold up to scrutiny.
 
-#### Freedom of Speech & The Right to A Fair Trial
+#### Freedom of Speech & Assembly
+
+Standing Rock protests in 2016-2017 were against the construction of the Dakota
+Access Pipeline (DAPL) project. The Dakota Access Pipeline (DAPL) was a $3.8
+billion private energy infrastructure project by Energy Transfer Partners. 
+
+!["Defend The Sacred" Ryan Vizzions - fstoppers.com](https://cdn.fstoppers.com/styles/full/s3/media/2016/11/29/standing-rock-protest-ryan-vizzions-5_0.jpg)
+
+The Standing Rock Sioux Tribe and thousands of allies ("water protectors").
+They argued the pipeline threatened sacred sites and water supply, exercising
+rights to speech and assembly.
+
+The protest camp that grew nearby became the largest gathering of Native
+American tribes in a century, a profound act of cultural expression, political
+speech, and assembly.
+
+Protesters faced aggressive, militarized responses from private security and
+law enforcement. Documented incidents included the use of pepper spray, attack
+dogs, _water cannons in freezing temperatures_, and mass arrests. A key incident
+was the use of a "less-lethal" projectile that severely injured activist Sophia
+Wilansky, raising questions of excessive force.
+
+Over 800 people were arrested. Charges often escalated from misdemeanors to
+felonies like "criminal trespass" and "rioting," carrying heavy penalties. The
+goal was not just to clear a site, but to burden protesters with lengthy,
+expensive legal battles, creating a chilling effect on future participation.
+
+Despite the global attention and scale of protest, the fundamental goal of
+stopping the pipeline failed. The rights were overridden, the assembly was
+forcibly dispersed, and the project completed.
+
+THIS PIPELINE WAS ON THEIR SACRED LANDS. IT THREATENED THEIR WATER. THEY HAD A
+RIGHT TO SPEAK OUT AND PEACEFULLY ASSEMBLE. IMAGINE BEING CALLED A TRESPASSER
+ON YOUR OWN LAND.
+
+The pipeline got its initial authorization through a regulatory shortcut
+(Nationwide Permit 12) that avoided serious environmental review and Tribal
+consultation. Its final permit was granted via Trump's Executive Order
+overriding an ongoing review.
+
+[Dakota Access Pipeline protests - wikipedia.org](https://en.wikipedia.org/wiki/Dakota_Access_Pipeline_protests)
+
+#### The Right to Due Process and A Fair Trial (Fifth & Fourteenth Amendments)
 
 Sure you've got Freedom of Speech, till they want to shut you up. Take for
 example the case of Steven Donziger.
