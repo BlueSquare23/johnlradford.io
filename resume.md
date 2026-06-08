@@ -11,13 +11,18 @@ Website: [johnlradford.io](https://johnlradford.io)
 
 ## Work Experience
 
-### Support Technician -  Pair Networks, Inc.
+### DevOps Specialist & SysAdmin - Pair Networks, Inc.
 
-**Timeframe**: 2018-2020
+**Timeframe**: 2023-2026
 
-Support technician for web & e-mail hosting services. Regularly helped
-customers resolve issues with websites, mailboxes, databases, DNS, domains,
-php, etc.
+On the systems team I have:
+
+* Developed & integrated into legacy build system custom solution for Apache & Nginx rate limiting.
+* Setup & maintained corporate VPN.
+* Developed internal modules and tooling for auto-balancing distributed QEMU/KVM cluster(s).
+* Developed custom PSGI module / Rest API Perl Plack module for catching Zendesk webhooks.
+* Started company sponsored cyber security club for leveling up internal knowledge-base and skill sets.
+* Helped maintain internal ELK centralized logging stack and SOC/SIEM monitoring.
 
 ### NOC & Security Technician - Pair Networks, Inc.
 
@@ -32,28 +37,26 @@ responsibilities. At the time, I was also working the abuse team and the
 internal account migrations team as well as handling normal level 2 support
 tickets and phone calls.
 
-### DevOps Specialist & SysAdmin - Pair Networks, Inc.
+### Support Technician -  Pair Networks, Inc.
 
-**Timeframe**: 2023-Present
+**Timeframe**: 2018-2020
 
-Promoted to DevOps & SysAdmin team. On the systems team I have:
+Support technician for web & e-mail hosting services. Regularly helped
+customers resolve issues with websites, mailboxes, databases, DNS, domains,
+php, etc.
 
-* Developed & integrated into legacy build system custom solution for Apache & Nginx rate limiting.
-* Setup & maintained corporate VPN.
-* Developed internal tooling for auto-balancing distributed QEMU/KVM cluster(s).
-* Developed custom PSGI module / Rest API Perl Plack module for catching Zendesk webhooks.
-* Started company sponsored cyber security club for leveling up internal knowledge-base and skill sets.
-* Helped maintain internal ELK centralized logging stack and SOC/SIEM monitoring.
-* And a million other small projects and fixes over time.
 
 ## Sample Projects
 
-### Web-LGSM - Web Portal for Managing Game Servers
+* Web-LGSM - Web Portal for Managing Game Servers
+  - **Source**: [Github](https://github.com/BlueSquare23/web-lgsm)
 
-**Source**: [Github](https://github.com/BlueSquare23/web-lgsm )
+* Term::ReadLine::Repl - A batteries included Repl CPAN Module
+  - **Source**: [Github](https://github.com/BlueSquare23/Term-ReadLine-Repl)
+  - **Docs**: [MetaCPAN](https://metacpan.org/pod/Term::ReadLine::Repl)
 
-### Plex-cli - A Simple CLI Script for Managing Your Plex Server
-
-**Source**: [Github](https://github.com/BlueSquare23/plex-cli)
+* Acme::Shotgun - Shoots holes in files CPAN Module
+  - **Source**: [Github](https://github.com/BlueSquare23/Acme-Shotgun)
+  - **Docs**: [MetaCPAN](https://metacpan.org/pod/Acme::Shotgun)
 
 
