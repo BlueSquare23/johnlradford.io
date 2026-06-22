@@ -1,10 +1,11 @@
-\documentclass[11pt]{article}
-\usepackage[letterpaper, margin=0.75in]{geometry}
+\documentclass[10pt]{article}
+\usepackage[letterpaper, margin=0.55in, bottom=0.5in]{geometry}
 \usepackage{parskip}
 \usepackage{hyperref}
 \usepackage{xcolor}
 \usepackage{fontspec}
 \usepackage{enumitem}
+\usepackage{microtype}
 
 % Footer
 \usepackage{fancyhdr}
@@ -33,37 +34,42 @@
 % Section formatting
 \usepackage{titlesec}
 \titleformat{\section}
-  {\normalfont\Large\bfseries\color{sectioncolor}}
+  {\normalfont\large\bfseries\color{sectioncolor}}
   {\thesection}{0.5em}{}
 \titleformat{\subsection}
-  {\normalfont\large\bfseries}
+  {\normalfont\normalsize\bfseries}
   {\thesubsection}{0.25em}{}
 
-% Reduce space after section headers
-\titlespacing*{\section}{0pt}{0.3\baselineskip}{0.15\baselineskip}
-\titlespacing*{\subsection}{0pt}{0.3\baselineskip}{0.1\baselineskip}
+% Tighter section spacing
+\titlespacing*{\section}{0pt}{0.4\baselineskip}{0.1\baselineskip}
+\titlespacing*{\subsection}{0pt}{0.25\baselineskip}{0.05\baselineskip}
 
 % Fix for Pandoc's tightlist
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 
-% Customize lists
-\setlist[itemize]{leftmargin=*,nosep}
+% Tight lists with reduced left margin
+\setlist[itemize]{leftmargin=1.2em, nosep, topsep=2pt}
+
+% Tighten paragraph spacing globally
+\setlength{\parskip}{2pt}
+\setlength{\parsep}{0pt}
 
 % Header with name and contact info
 \newcommand{\header}[2]{
   \begin{center}
-    {\Huge\bfseries #1}\\[0.25em]
-    #2
+    {\huge\bfseries #1}\\[0.15em]
+    {\small #2}
   \end{center}
-  \vspace{.25em}
+  \vspace{0.1em}
 }
 
 \begin{document}
 
 \header{John L. Radford}{
-  \href{mailto:johnlradford23@gmail.com}{johnlradford23@gmail.com}
-  \href{https://johnlradford.io}{johnlradford.io}
+  \href{mailto:johnlradford23@gmail.com}{johnlradford23@gmail.com} \quad
+  \href{https://johnlradford.io}{johnlradford.io} \quad
+  \href{https://github.com/BlueSquare23}{github.com/BlueSquare23}
 }
 
 % Content will be inserted here by pandoc

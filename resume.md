@@ -1,62 +1,49 @@
-# John L. Radford - Resume
+# John L. Radford
 
-E-mail: [johnlradford23@gmail.com](mailto:johnlradford23@gmail.com)
-Website: [johnlradford.io](https://johnlradford.io)
+[johnlradford23@gmail.com](mailto:johnlradford23@gmail.com) | [johnlradford.io](https://johnlradford.io) | [github.com/BlueSquare23](https://github.com/BlueSquare23)
 
-## Education
+## Summary
 
-**University of Pittsburgh (Graduated: 2017)**
-**Bachelor of Arts**: Humanities Gen., Philosophy/Art History/Classical Literature
-**Minor**: Political Science
+DevOps engineer and systems programmer with 6+ years at a production web hosting company. Builds internal tooling, automation, and infrastructure end-to-end — from distributed KVM clusters to custom RAG pipelines. Writes production Perl and Python, owns Linux systems, and ships full-stack internal tools.
+
+## Technical Skills
+
+**Languages:** Perl, Python, Bash, JavaScript  
+**Infra & Ops:** Linux (RHEL/Ubuntu/FreeBSD), QEMU/KVM, Puppet, Ansible, Nginx, Apache, ELK Stack  
+**Data & Caching:** MySQL/MariaDB, Redis, ChromaDB  
+**Security & Networking:** SOC/SIEM, VPN, rate limiting, IP threat intelligence, HMAC auth  
+**Tools:** GitLab CI/CD, Netbox, CloudLinux, Icinga2, SureMDM, REST APIs, Plack/PSGI
 
 ## Work Experience
 
-### DevOps Specialist & SysAdmin - Pair Networks, Inc.
+### DevOps Specialist & Systems Administrator — Pair Networks, Inc.
+**2023 – 2026**
 
-**Timeframe**: 2023-2026
+- Built a **Virtual Resource Manager** (Perl): per-host REST API agents broadcasting live CPU/mem/guest stats, a weighted-average rebalancing algorithm, and an interactive REPL CLI (`vrmctl`) for manipulating the QEMU/KVM cluster.
+- Developed a **custom RAG pipeline** (Python): ingested docs from GitLab, wikis, and knowledge bases; chunked, vectorized, and stored in ChromaDB; deployed tailored internal LLMs to assist support staff.
+- Built a **centralized IP threat intelligence system**: Perl modules querying multiple public threat APIs, persisted to a central store with Redis caching to minimize redundant external calls.
+- Developed a **Zendesk webhook API** (Perl Plack, HMAC-verified): auto-populated ticket fields from a username or account number, eliminating manual lookup for the entire support team.
+- Integrated **Nginx/Apache rate limiting** into the Puppet build system; built a web stats pipeline for false-positive monitoring and threshold tuning.
+- Developed a **KPI metrics pipeline**: automated collection of core business metrics from billing and account systems into a central database, replacing ad-hoc executive reporting.
 
-On the systems team I have:
+### NOC & Security Technician — Pair Networks, Inc.
+**2020 – 2023**
 
-* Developed & integrated into legacy build system custom solution for Apache & Nginx rate limiting.
-* Setup & maintained corporate VPN.
-* Developed internal modules and tooling for auto-balancing distributed QEMU/KVM cluster(s).
-* Developed custom PSGI module / Rest API Perl Plack module for catching Zendesk webhooks.
-* Started company sponsored cyber security club for leveling up internal knowledge-base and skill sets.
-* Helped maintain internal ELK centralized logging stack and SOC/SIEM monitoring.
+- Promoted to concurrent Security and NOC roles: monitored, detected, and remediated intrusions; triaged live production server incidents (hardware and software).
+- Simultaneously handled Level 2 support, abuse team, and internal account migrations.
 
-### NOC & Security Technician - Pair Networks, Inc.
+### Support Technician — Pair Networks, Inc.
+**2018 – 2020**
 
-**Timeframe**: 2020-2023
+- Resolved customer issues across web hosting, email, DNS, databases, and PHP.
+- Built deep Linux hosting expertise that underpins all subsequent engineering roles.
 
-Promoted to security and NOC (urgent) monitoring teams. On security, handled
-junior analyst duties (eg. monitoring, detecting, & remediating intrusions). On
-NOC (urgent) monitoring team, handled live server issues (hardware & software).
+## Open Source
 
-These were concurrent duties, on top of normal level 2 support
-responsibilities. At the time, I was also working the abuse team and the
-internal account migrations team as well as handling normal level 2 support
-tickets and phone calls.
+[Web-LGSM](https://github.com/BlueSquare23/web-lgsm) — web portal for managing Linux game servers  
+[Term::ReadLine::Repl](https://metacpan.org/pod/Term::ReadLine::Repl) — published CPAN REPL module; used in production `vrmctl` tooling  
+[Acme::Shotgun](https://metacpan.org/pod/Acme::Shotgun) — published CPAN module
 
-### Support Technician -  Pair Networks, Inc.
+## Education
 
-**Timeframe**: 2018-2020
-
-Support technician for web & e-mail hosting services. Regularly helped
-customers resolve issues with websites, mailboxes, databases, DNS, domains,
-php, etc.
-
-
-## Sample Projects
-
-* Web-LGSM - Web Portal for Managing Game Servers
-  - **Source**: [Github](https://github.com/BlueSquare23/web-lgsm)
-
-* Term::ReadLine::Repl - A batteries included Repl CPAN Module
-  - **Source**: [Github](https://github.com/BlueSquare23/Term-ReadLine-Repl)
-  - **Docs**: [MetaCPAN](https://metacpan.org/pod/Term::ReadLine::Repl)
-
-* Acme::Shotgun - Shoots holes in files CPAN Module
-  - **Source**: [Github](https://github.com/BlueSquare23/Acme-Shotgun)
-  - **Docs**: [MetaCPAN](https://metacpan.org/pod/Acme::Shotgun)
-
-
+**University of Pittsburgh** — B.A., Humanities; Minor in Political Science *(2017)*
