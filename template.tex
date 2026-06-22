@@ -6,73 +6,91 @@
 \usepackage{fontspec}
 \usepackage{enumitem}
 \usepackage{microtype}
-
-% Footer
+\usepackage{titlesec}
 \usepackage{fancyhdr}
 \usepackage[us,12hr]{datetime}
+
+% ── Footer ───────────────────────────────────────────────────────────────────
 \fancypagestyle{plain}{
-\fancyhf{}
-\rfoot{\footnotesize Last Compiled: {\mmddyyyydate\today} at \currenttime}
-\lfoot{\footnotesize John Radford's Resume}
-\renewcommand{\headrulewidth}{0pt}}
+  \fancyhf{}
+  \rfoot{\footnotesize Last Compiled: {\mmddyyyydate\today} at \currenttime}
+  \lfoot{\footnotesize John Radford's Resume}
+  \renewcommand{\headrulewidth}{0pt}
+}
 \pagestyle{plain}
 \pagenumbering{gobble}
 
-% Set main font
+% ── Font ─────────────────────────────────────────────────────────────────────
 \setmainfont{Comic Sans MS}
 
-% Hyperlink styling
-\hypersetup{
-    colorlinks=true,
-    linkcolor=blue,
-    urlcolor=blue,
+% ── Hyperlinks ───────────────────────────────────────────────────────────────
+\hypersetup{colorlinks=true, linkcolor=blue, urlcolor=blue}
+
+% ── Colors ───────────────────────────────────────────────────────────────────
+\definecolor{sectioncolor}{rgb}{0.2, 0.2, 0.6}
+\definecolor{rulecolor}{rgb}{0.2, 0.2, 0.6}
+
+% ── Section headings: no numbers, colored, with full-width rule below ────────
+\titleformat{\section}
+  {\normalfont\Large\bfseries\color{sectioncolor}}
+  {}{0em}
+  {}
+  [\color{rulecolor}\titlerule]
+
+% Subsection: no numbers, normal weight, slightly indented date on same line
+% (job title formatting handled inline in markdown as bold + date)
+\titleformat{\subsection}
+  {\normalfont\large\bfseries}
+  {}{0em}{}
+
+\titleformat{\subsubsection}
+  {\normalfont\normalsize\bfseries}
+  {}{0em}{}
+
+\titlespacing*{\section}   {0pt}{0.55\baselineskip}{0.25\baselineskip}
+\titlespacing*{\subsection}   {0pt}{0.3\baselineskip}{0.05\baselineskip}
+\titlespacing*{\subsubsection}{0pt}{0.25\baselineskip}{0.05\baselineskip}
+
+% ── H1 → centered name block (replaces the old \header command) ──────────────
+% Pandoc emits \section{} for ##, so H1 (the name) comes through as a raw
+% block when we redefine it. We intercept it via titlesec for "part" level,
+% but the simplest reliable approach with Pandoc is to suppress the H1 from
+% the body and hardcode the name/contact block here, just once.
+%
+% HOWEVER — to avoid the double-print issue entirely, the markdown H1 and
+% contact line are suppressed with a Pandoc lua filter (see build note below).
+% If you're not using the filter, delete the name line from resume.md instead.
+
+% ── Name / contact header (rendered once, here) ──────────────────────────────
+\newcommand{\resumeheader}{
+  \begin{center}
+    {\huge\bfseries John L. Radford}\\[0.2em]
+    {\small
+      \href{mailto:johnlradford23@gmail.com}{johnlradford23@gmail.com}
+      \quad\textbullet\quad
+      \href{https://johnlradford.io}{johnlradford.io}
+      \quad\textbullet\quad
+      \href{https://github.com/BlueSquare23}{github.com/BlueSquare23}
+    }
+  \end{center}
+  \vspace{0.3em}
+  \noindent\textcolor{rulecolor}{\rule{\linewidth}{1.2pt}}
+  \vspace{0.1em}
 }
 
-% Custom colors
-\definecolor{sectioncolor}{rgb}{0.2, 0.2, 0.6}
-
-% Section formatting
-\usepackage{titlesec}
-\titleformat{\section}
-  {\normalfont\large\bfseries\color{sectioncolor}}
-  {\thesection}{0.5em}{}
-\titleformat{\subsection}
-  {\normalfont\normalsize\bfseries}
-  {\thesubsection}{0.25em}{}
-
-% Tighter section spacing
-\titlespacing*{\section}{0pt}{0.4\baselineskip}{0.1\baselineskip}
-\titlespacing*{\subsection}{0pt}{0.25\baselineskip}{0.05\baselineskip}
+% ── Spacing & lists ──────────────────────────────────────────────────────────
+\setlength{\parskip}{2pt}
+\setlength{\parsep}{0pt}
+\setlist[itemize]{leftmargin=1.4em, nosep, topsep=2pt}
 
 % Fix for Pandoc's tightlist
 \providecommand{\tightlist}{%
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 
-% Tight lists with reduced left margin
-\setlist[itemize]{leftmargin=1.2em, nosep, topsep=2pt}
-
-% Tighten paragraph spacing globally
-\setlength{\parskip}{2pt}
-\setlength{\parsep}{0pt}
-
-% Header with name and contact info
-\newcommand{\header}[2]{
-  \begin{center}
-    {\huge\bfseries #1}\\[0.15em]
-    {\small #2}
-  \end{center}
-  \vspace{0.1em}
-}
-
 \begin{document}
 
-\header{John L. Radford}{
-  \href{mailto:johnlradford23@gmail.com}{johnlradford23@gmail.com} \quad
-  \href{https://johnlradford.io}{johnlradford.io} \quad
-  \href{https://github.com/BlueSquare23}{github.com/BlueSquare23}
-}
+\resumeheader
 
-% Content will be inserted here by pandoc
 $body$
 
 \end{document}
