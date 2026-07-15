@@ -1,3 +1,3 @@
 #!/bin/bash
-pandoc resume.md --template=template.tex -o output.pdf --pdf-engine=lualatex
+pandoc resume.md --template=template.tex -o resume.pdf --pdf-engine=lualatex
 

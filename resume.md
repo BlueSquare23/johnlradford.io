@@ -1,13 +1,13 @@
 ## Summary
 
-DevOps engineer and systems programmer with 6+ years at a production web hosting company. Builds internal tooling, automation, and infrastructure end-to-end, from distributed KVM clusters to custom RAG pipelines. Writes production Perl and Python, owns Linux systems, and ships full-stack internal tools.
+DevOps engineer and systems programmer with 6+ years at a production web hosting company. Applies computer science fundamentals and insightful technical leadership to build internal tooling, automation, and secure infrastructure end-to-end, from distributed KVM clusters to custom RAG pipelines, with an emphasis on coding clean user experience for internal teams. Writes production Perl and Python, mentors junior staff, owns Linux systems, and ships full-stack internal tools.
 
 ## Technical Skills
 
 **Languages:** Perl, Python, Bash, PHP, JavaScript  
-**Infra & Ops:** Linux (RHEL/Ubuntu/FreeBSD), QEMU/KVM, Puppet, Ansible, Nginx, Apache, ELK Stack  
+**Infra & DevOps:** Linux (RHEL/Ubuntu/FreeBSD), QEMU/KVM, Puppet, Ansible, Nginx, Apache, ELK Stack  
 **Data & Caching:** MySQL/MariaDB, Redis, ChromaDB  
-**Security & Networking:** SOC/SIEM, VPN, rate limiting, IP threat intelligence, HMAC auth  
+**Security & Networking:** SOC/SIEM, VPN, rate limiting, IP threat intelligence, HMAC auth, Workflow Automation  
 **Tools:** GitLab CI/CD, Netbox, CloudLinux, Icinga2, SureMDM, REST APIs, Plack/PSGI
 
 ## Work Experience
@@ -15,13 +15,13 @@ DevOps engineer and systems programmer with 6+ years at a production web hosting
 ### DevOps Specialist & Systems Administrator - Pair Networks, Inc.
 **01/2023 – 05/2026**
 
-- Built a **Virtual Resource Manager** (Perl): per-host REST API agents broadcasting live CPU/mem/guest stats, a weighted-average rebalancing algorithm, and an interactive REPL CLI (`vrmctl`) for manipulating the QEMU/KVM cluster.
+- Built a **Virtual Resource Manager** (Perl) spanning 2 network segments, 30-40 host systems, and thousands of guest VMs: per-host REST API agents broadcasting live CPU/mem/guest stats, a weighted-average rebalancing algorithm, and an interactive REPL CLI (`vrmctl`) for manipulating the QEMU/KVM clusters.
 - Developed a **custom RAG pipeline** (Python): ingested docs from GitLab, wikis, and knowledge bases; chunked, vectorized, and stored in ChromaDB; deployed tailored internal LLMs to assist support staff.
-- Built a **centralized IP threat intelligence system**: Perl modules querying multiple public threat APIs, persisted to a central store with Redis caching to minimize redundant external calls.
-- Developed a **Zendesk webhook API** (Perl Plack, HMAC-verified): auto-populated ticket fields from a username or account number, eliminating manual lookup for the entire support team.
-- Integrated **Nginx/Apache rate limiting** into the Puppet build system; built a web stats pipeline for false-positive monitoring and threshold tuning.
-- Developed a **KPI metrics pipeline**: automated collection of core business metrics from billing and account systems into a central database, replacing ad-hoc executive reporting.
-- Integrated **CloudLinux** into the legacy build system and Puppet; built LVE fault reporting tooling, custom control panel integrations, and an Ansible playbook for fleet-wide deployment.
+- Built a **centralized IP threat intelligence system**: Perl modules querying 3 public threat intelligence APIs, persisted to a central store with Redis caching to eliminate redundant external calls.
+- Developed a **Zendesk webhook API** (Perl Plack, HMAC-verified): auto-populated ticket fields from a username or account number, saving the support team an estimated 10-20 hours of manual lookup annually.
+- Integrated **Nginx/Apache rate limiting** into the Puppet build system; built a quality assurance pipeline for false-positive monitoring and threshold tuning.
+- Developed a **KPI metrics pipeline**: automated collection of core business metrics from billing and account systems into a central database, eliminating a recurring 1-2 hour manual reporting task each quarter.
+- Integrated **CloudLinux** into the legacy build system and Puppet across a fleet of 20 shared servers; built LVE fault reporting tooling, custom control panel integrations, and an Ansible playbook for fleet-wide deployment.
 - Developed a **centralized web statistics pipeline**: Perl modules parsing raw access logs into structured JSON aggregated across the entire fleet via Ansible.
 
 ### NOC & Security Technician - Pair Networks, Inc.
@@ -35,7 +35,7 @@ DevOps engineer and systems programmer with 6+ years at a production web hosting
 **08/2018 – 12/2020**
 
 - Resolved customer issues across web hosting, email, DNS, domains, databases, and PHP configurations.
-- Automated **SSL renewal notifications**, eliminating a highly manual process that previously consumed hours of support time per cycle.
+- Automated **SSL renewal notifications**, eliminating a manual process and saving an estimated 200+ hours (roughly $10-15K in labor costs) per year.
 - Built deep Linux hosting expertise across the full web stack that underpins all subsequent engineering roles.
 
 ## Open Source Projects
