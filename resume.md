@@ -13,7 +13,7 @@ DevOps engineer and systems programmer with 6+ years at a production web hosting
 ## Work Experience
 
 ### DevOps Specialist & Systems Administrator - Pair Networks, Inc.
-**2023 – 2026**
+**01/2023 – 05/2026**
 
 - Built a **Virtual Resource Manager** (Perl): per-host REST API agents broadcasting live CPU/mem/guest stats, a weighted-average rebalancing algorithm, and an interactive REPL CLI (`vrmctl`) for manipulating the QEMU/KVM cluster.
 - Developed a **custom RAG pipeline** (Python): ingested docs from GitLab, wikis, and knowledge bases; chunked, vectorized, and stored in ChromaDB; deployed tailored internal LLMs to assist support staff.
@@ -25,14 +25,14 @@ DevOps engineer and systems programmer with 6+ years at a production web hosting
 - Developed a **centralized web statistics pipeline**: Perl modules parsing raw access logs into structured JSON aggregated across the entire fleet via Ansible.
 
 ### NOC & Security Technician - Pair Networks, Inc.
-**2020 – 2023**
+**01/2020 – 12/2023**
 
 - Promoted to concurrent Security and NOC roles: monitored, detected, and remediated intrusions; triaged live production server incidents (hardware and software).
 - Simultaneously handled Level 2 support, abuse team, and internal account migrations.
 - Helped maintain the internal ELK centralized logging stack and SOC/SIEM monitoring infrastructure.
 
 ### Support Technician - Pair Networks, Inc.
-**2018 – 2020**
+**08/2018 – 12/2020**
 
 - Resolved customer issues across web hosting, email, DNS, domains, databases, and PHP configurations.
 - Automated **SSL renewal notifications**, eliminating a highly manual process that previously consumed hours of support time per cycle.
