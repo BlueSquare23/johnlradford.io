@@ -15,12 +15,80 @@ html {
 body {
   cursor: url('/static/img/spaceship.png'), auto;
   background-color: var(--bg);
-  background-image: url(/static/img/starstwinkle.gif);
-  background-repeat: repeat;
   min-height: 100%;
   font-family: 'VT323', monospace !important;
   font-size: 1.25em !important;
   color: var(--text);
+}
+
+/* -------------------- Parallax starfield -------------------- */
+/* Three fixed, full-viewport layers behind all content. Depth comes from
+   speed (far layers move less per scrolled px) and density/size, not from
+   moving the element itself -- background-position is animated instead of
+   transform so the tiled pattern never runs out of coverage on long pages. */
+.star-layer {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.star-layer-far {
+  background-image:
+    radial-gradient(1.5px 1.5px at 8% 15%, rgba(220, 255, 230, 0.75), transparent),
+    radial-gradient(1.5px 1.5px at 22% 55%, rgba(220, 255, 230, 0.65), transparent),
+    radial-gradient(2px 2px at 40% 80%, rgba(220, 255, 230, 0.8), transparent),
+    radial-gradient(1.5px 1.5px at 55% 25%, rgba(220, 255, 230, 0.6), transparent),
+    radial-gradient(1.5px 1.5px at 68% 60%, rgba(220, 255, 230, 0.7), transparent),
+    radial-gradient(2px 2px at 78% 10%, rgba(220, 255, 230, 0.75), transparent),
+    radial-gradient(1.5px 1.5px at 85% 45%, rgba(220, 255, 230, 0.6), transparent),
+    radial-gradient(1.5px 1.5px at 92% 85%, rgba(220, 255, 230, 0.7), transparent),
+    radial-gradient(2px 2px at 12% 90%, rgba(220, 255, 230, 0.65), transparent),
+    radial-gradient(1.5px 1.5px at 33% 5%, rgba(220, 255, 230, 0.6), transparent);
+  background-repeat: repeat;
+  background-size: 160px 160px;
+  opacity: 0.75;
+  animation: twinkle-far 7s ease-in-out infinite;
+}
+
+.star-layer-mid {
+  background-image:
+    radial-gradient(2px 2px at 10% 20%, rgba(255, 255, 255, 0.9), transparent),
+    radial-gradient(2.5px 2.5px at 30% 60%, rgba(255, 255, 255, 0.8), transparent),
+    radial-gradient(2px 2px at 50% 15%, rgba(255, 255, 255, 0.85), transparent),
+    radial-gradient(3px 3px at 65% 75%, rgba(255, 255, 255, 0.9), transparent),
+    radial-gradient(2px 2px at 80% 35%, rgba(255, 255, 255, 0.75), transparent),
+    radial-gradient(2.5px 2.5px at 90% 80%, rgba(255, 255, 255, 0.85), transparent),
+    radial-gradient(2px 2px at 15% 85%, rgba(255, 255, 255, 0.8), transparent),
+    radial-gradient(2.5px 2.5px at 45% 45%, rgba(255, 255, 255, 0.7), transparent);
+  background-repeat: repeat;
+  background-size: 110px 110px;
+  opacity: 0.85;
+  animation: twinkle-mid 5s ease-in-out infinite;
+}
+
+.star-layer-near {
+  background-image: url(/static/img/starstwinkle.gif);
+  background-repeat: repeat;
+  opacity: 1;
+  mix-blend-mode: screen;
+}
+
+@keyframes twinkle-far {
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 0.85; }
+}
+
+@keyframes twinkle-mid {
+  0%, 100% { opacity: 0.65; }
+  50% { opacity: 0.95; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .star-layer-far,
+  .star-layer-mid {
+    animation: none;
+  }
 }
 
 /* Subtle CRT scanline texture over the whole viewport */
@@ -55,7 +123,7 @@ hr {
 
 /* -------------------- Panels -------------------- */
 .panel {
-  background: rgba(6, 15, 8, 0.88);
+  background: rgba(6, 15, 8, 0.82);
   border: 1px solid var(--accent-dim);
   border-radius: 4px;
   box-shadow: 0 0 20px rgba(51, 255, 102, 0.08), inset 0 0 30px rgba(51, 255, 102, 0.04);

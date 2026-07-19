@@ -43,6 +43,8 @@
   
   <div class="snow">
   <body>
+    <?php include "./starfield.html" ?>
+
     <!-- Boot Sequence Intro -->
     <div id="boot-screen">
       <noscript><style>#boot-screen{display:none !important;}</style></noscript>

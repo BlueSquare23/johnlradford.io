@@ -18,6 +18,8 @@
   
   <div class="snow">
   <body>
+    <?php include "./starfield.html" ?>
+
     <!-- Nice Bootstrap CSS Navbar -->
     <?php include "./nav.html" ?>
   
