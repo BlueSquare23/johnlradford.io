@@ -1,33 +1,13 @@
       <!-- My Bio -->
-      <div class="mt-3 container-lg bg-dark text-white border border-secondary border-2 rounded">
-        <div class="row">
-          <div class="col">
-            <a class="float-end" href="./teapot/" style="text-decoration: none;" title="Teapot">
-              <img style="cursor: pointer;" class="img-fluid" alt="418 teapot" title="I'm a teapot" src="./static/img/teapot.png">
-            </a>
-            <h3 class="pt-1">About Me</h3>
-          </div>
+      <div class="panel">
+        <div class="d-flex justify-content-between align-items-start flex-wrap">
+          <h3 class="pt-1">About Me</h3>
+          <a href="./teapot/" style="text-decoration: none;" title="Teapot">
+            <img style="cursor: pointer; width: 48px;" class="img-fluid" alt="418 teapot" title="I'm a teapot" src="./static/img/teapot.png">
+          </a>
         </div>
         <div class="row">
-          <div class="col">
-            <div id="ascii_pic" class="d-flex justify-content-center container-fluid">
-              <script>
-                fetch('/me.html').then(function (response) {
-                  return response.text();
-                }).then(function (html) {
-                  const asciiPic = document.getElementById("ascii_pic");
-                  asciiPic.innerHTML = html;
-                }).catch(function (err) {
-                  console.warn('Something went wrong!', err);
-                });
-              </script>
-            </div>
-            <div class="d-flex justify-content-center">
-              <a href="https://youtu.be/Gmp1o9pkync?t=168" target="_blank" rel="noopener noreferrer">
-                <img class="mb-1 pt-1 img-fluid" src="./static/img/goodbing.png" alt="I have been a good bing :)">
-              </a>
-            </div>
-            <br>
+          <div class="col-md-8">
             <p>I'm a junior computer heretic, IT professional, web guy, tinkerer, bad
                programmer, and aspiring mad sea captain. <i>Aargh, computers are but a
                fallback til me vessle's seaworthy again!</i></p>
@@ -39,8 +19,12 @@
                services. Although, I also dabble with front and back end web development and
                offensive cyber security.
             </p>
-            <hr style="color: white;">
-            <h4>My PGP Public Key:
+          </div>
+          <div class="col-md-4 d-flex flex-column align-items-center text-center">
+            <a href="https://youtu.be/Gmp1o9pkync?t=168" target="_blank" rel="noopener noreferrer">
+              <img class="img-fluid mb-2" style="max-width:180px;" src="./static/img/goodbing.png" alt="I have been a good bing :)">
+            </a>
+            <h4 class="mt-2">My PGP Public Key:
               <img onclick="copyFingerprint()" style="cursor: pointer;" alt="pgp fingerprint icon"
                 title="Copy Fingerprint: C39C7BA01EE2894B6BA8563A5A9B2754F7352546" src="./static/img/fingerprint.png">
               <script>
@@ -50,7 +34,7 @@
                   alert("Text Copied!" + "\n\n\t" + fingerprint);
                 }
               </script>
-              <a href="pgp_key.txt" id="pgp-key-icon" title="John's PGP Key" target="_blank" rel="noopener noreferrer" 
+              <a href="pgp_key.txt" id="pgp-key-icon" title="John's PGP Key" target="_blank" rel="noopener noreferrer"
                 style="text-decoration: none;">
                 <img src="./static/img/key.png" alt="pgp key icon">
               </a>
@@ -58,12 +42,12 @@
                 <img src="./static/img/download-icon.png" alt="download icon">
               </a>
             </h4>
-            <hr>
-            <marquee>
-              <span style='color:yellow; background-color:red;'>
-                <b><i>❗This Man is Wanted in All 50 States & The US Virgin Islands for His Willful Commission of Crime Against the Crown! Those Crimes Being Numerous in Quantity & Sinister in Nature Include But Are Not Limited to: Impersonating an officer of the Royal Navy; Impersonating a clergy of the Church of England; Arson; Espionage; Kidnapping; Perjury; Piracy; Pilfering; Trademark Infringement; Deprivation of a Federal Loyalist; Tampering with the Queen's Corgis; Extensive Obsecene Jaywalking; Unauthorized Pothole Maintenance; Use of JQuery; Running an Illegal Hedgehog Racing Ring; Unauthorized Time Travel; Starting a Flash Mob in a Library; Operating a Bakery without a License; Graffiti on National Monuments; Fraudulent Participation in a Pie-Eating Contest; Unauthorized Re-enactment of the Battle of Hastings; Moonlighting as a Mime without a Permit; Unlawful Kilt-Wearing; Grand Theft Hot Air Balloon; Conducting Unlicensed Umbrella Jousting Tournaments; Smuggling Exotic Tortoises; Interfering with The Royal Swans; Unauthorized Use of an Industrial Automotive Paint Gun; Trespassing on Public Land; Unauthorized Robin Hood Impersonation; ... among others. For these crimes he will be hung by the neck until dead! May God have mercy on his soul. ☠️</i></b>
-              </span>
-            </marquee>
           </div>
         </div>
+        <hr>
+        <marquee>
+          <span style='color:yellow; background-color:red;'>
+            <b><i>❗This Man is Wanted in All 50 States & The US Virgin Islands for His Willful Commission of Crime Against the Crown! Those Crimes Being Numerous in Quantity & Sinister in Nature Include But Are Not Limited to: Impersonating an officer of the Royal Navy; Impersonating a clergy of the Church of England; Arson; Espionage; Kidnapping; Perjury; Piracy; Pilfering; Trademark Infringement; Deprivation of a Federal Loyalist; Tampering with the Queen's Corgis; Extensive Obsecene Jaywalking; Unauthorized Pothole Maintenance; Use of JQuery; Running an Illegal Hedgehog Racing Ring; Unauthorized Time Travel; Starting a Flash Mob in a Library; Operating a Bakery without a License; Graffiti on National Monuments; Fraudulent Participation in a Pie-Eating Contest; Unauthorized Re-enactment of the Battle of Hastings; Moonlighting as a Mime without a Permit; Unlawful Kilt-Wearing; Grand Theft Hot Air Balloon; Conducting Unlicensed Umbrella Jousting Tournaments; Smuggling Exotic Tortoises; Interfering with The Royal Swans; Unauthorized Use of an Industrial Automotive Paint Gun; Trespassing on Public Land; Unauthorized Robin Hood Impersonation; ... among others. For these crimes he will be hung by the neck until dead! May God have mercy on his soul. ☠️</i></b>
+          </span>
+        </marquee>
       </div>

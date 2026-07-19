@@ -23,12 +23,12 @@
     <meta name="twitter:description" content="John's a dude who does computer stuff! Programming, Hacking, and Kicking it Old School since 94'.">
     <meta name="twitter:image" content="https://johnlradford.io/static/img/BlueSquare600x315.jpg">
 
-    <link rel="stylesheet" type="text/css" href="static/css/main.css">
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="static/css/main.css">
     <!-- Google Fonts VT323 -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -39,19 +39,19 @@
   </head>
   
   <div class="snow">
-  <body style="background-color:black;">
+  <body>
     <!-- Nice Bootstrap Navbar -->
     <?php include "./nav.html" ?>
   
     <main>
-      <div class="pt-1 my-3 container bg-dark text-white border border-secondary border-2 rounded">
+      <div class="panel container">
         <center>
           <h1>📧 Contact John!</h1>
         </center>
       </div>
 
       <!-- Contact Form -->
-      <div class="pt-1 my-3 container bg-dark text-white border border-secondary border-2 rounded">
+      <div class="panel container">
         <div class="row">
           <h3>Send Me A Message!</h3>
           <div class="col my-1">

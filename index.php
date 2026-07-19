@@ -23,12 +23,12 @@
     <meta name="twitter:description" content="John's a dude who does computer stuff! Programming, Hacking, and Kicking it Old School since 94'.">
     <meta name="twitter:image" content="https://johnlradford.io/static/img/BlueSquare600x315.jpg">
 
-    <link rel="stylesheet" type="text/css" href="static/css/main.css">
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="static/css/main.css">
     <!-- Google Fonts VT323 -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -42,11 +42,19 @@
   </head>
   
   <div class="snow">
-  <body style="background-color:black;">
+  <body>
     <!-- Nice Bootstrap Navbar -->
     <?php include "./nav.html" ?>
   
     <main>
+      <!-- Hero -->
+      <div class="hero">
+        <p class="hero-prompt">guest@johnlradford:~$ whoami</p>
+        <h1 class="hero-title">John Radford<span class="hero-cursor">&nbsp;</span></h1>
+        <p class="hero-tagline">Computer heretic, IT professional, tinkerer &amp; aspiring mad sea
+          captain. Programming, hacking, and kicking it old school since '94.</p>
+      </div>
+
       <!-- My Bio -->
       <?php include "./about.html" ?>
 
@@ -92,8 +100,8 @@
     </script>
   
     <button 
-      id="topBtn" type="button" class="btn btn-primary d-none d-sm-block" 
-      style="color: white; text-decoration:underline;"
+      id="topBtn" type="button" class="btn btn-primary d-none d-sm-block"
+      style="text-decoration:underline;"
       onclick="window.scrollTo(0, 0);">/\ Top /\
     </button>
   

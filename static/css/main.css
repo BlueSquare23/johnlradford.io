@@ -1,17 +1,288 @@
+:root {
+  --bg: #030905;
+  --bg-panel: #060f08;
+  --accent: #33ff66;
+  --accent-dim: #1a8f3c;
+  --accent-glow: rgba(51, 255, 102, 0.35);
+  --text: #c8ffd6;
+  --text-dim: #7fcf98;
+}
+
 html {
   height: 100%;
 }
 
 body {
   cursor: url('/static/img/spaceship.png'), auto;
+  background-color: var(--bg);
   background-image: url(/static/img/starstwinkle.gif);
   background-repeat: repeat;
   min-height: 100%;
   font-family: 'VT323', monospace !important;
   font-size: 1.25em !important;
-  mix-blend-mode: screen;/* but like opacity it will affect the whole container and content */
+  color: var(--text);
 }
 
+/* Subtle CRT scanline texture over the whole viewport */
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 9999;
+  background: repeating-linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0) 0px,
+    rgba(0, 0, 0, 0) 2px,
+    rgba(51, 255, 102, 0.035) 3px,
+    rgba(0, 0, 0, 0) 4px
+  );
+}
+
+a {
+  color: var(--accent);
+}
+
+a:hover,
+a:focus {
+  color: #baffcf;
+}
+
+hr {
+  border-color: var(--accent-dim);
+  opacity: 0.5;
+}
+
+/* -------------------- Panels -------------------- */
+.panel {
+  background: rgba(6, 15, 8, 0.88);
+  border: 1px solid var(--accent-dim);
+  border-radius: 4px;
+  box-shadow: 0 0 20px rgba(51, 255, 102, 0.08), inset 0 0 30px rgba(51, 255, 102, 0.04);
+  padding: 1.5rem;
+  margin: 2rem auto;
+  color: var(--text);
+}
+
+.panel h1,
+.panel h3,
+.panel h4 {
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.panel h1::before,
+.panel h3::before,
+.panel h4::before {
+  content: "> ";
+  color: var(--accent-dim);
+}
+
+/* -------------------- Hero -------------------- */
+.hero {
+  text-align: center;
+  padding: 3rem 1rem 2rem;
+}
+
+.hero-prompt {
+  color: var(--text-dim);
+  font-size: 1.1em;
+  letter-spacing: 0.05em;
+}
+
+.hero-title {
+  font-size: clamp(2.5rem, 8vw, 5rem);
+  color: var(--accent);
+  text-shadow: 0 0 12px var(--accent-glow), 0 0 2px var(--accent);
+  margin: 0.25rem 0;
+  line-height: 1.1;
+}
+
+.hero-cursor {
+  display: inline-block;
+  width: 0.5em;
+  background: var(--accent);
+  margin-left: 0.08em;
+  animation: blink 1s steps(1) infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+.hero-tagline {
+  color: var(--text-dim);
+  font-size: 1.4rem;
+  max-width: 40em;
+  margin: 0.5rem auto 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-cursor {
+    animation: none;
+  }
+}
+
+/* -------------------- Bootstrap component overrides -------------------- */
+/* Bootstrap 5.0.2 marks bg-dark/text-white/border-secondary utilities
+   !important, so overrides here must match to win. */
+.bg-dark {
+  background-color: var(--bg-panel) !important;
+}
+
+.border-secondary {
+  border-color: var(--accent-dim) !important;
+}
+
+.navbar {
+  border-bottom: 1px solid var(--accent-dim);
+}
+
+.navbar-dark .navbar-brand,
+.navbar-dark .navbar-nav .nav-link {
+  color: var(--text);
+}
+
+.navbar-dark .navbar-brand:hover,
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:focus {
+  color: var(--accent);
+  text-shadow: 0 0 8px var(--accent-glow);
+}
+
+.navbar-toggler {
+  border-color: var(--accent-dim);
+}
+
+footer .nav-link {
+  color: var(--text);
+}
+
+footer .nav-link:hover,
+footer .nav-link:focus {
+  color: var(--accent);
+  text-shadow: 0 0 8px var(--accent-glow);
+}
+
+footer,
+footer p {
+  color: var(--text);
+}
+
+.btn-primary {
+  color: var(--accent);
+  background-color: transparent;
+  border-color: var(--accent-dim);
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  color: #06120a;
+  background-color: var(--accent);
+  border-color: var(--accent);
+  box-shadow: 0 0 12px var(--accent-glow);
+}
+
+.form-control {
+  background-color: var(--bg-panel);
+  border: 1px solid var(--accent-dim);
+  color: var(--text);
+}
+
+.form-control:focus {
+  background-color: var(--bg-panel);
+  border-color: var(--accent);
+  color: var(--text);
+  box-shadow: 0 0 0 0.2rem var(--accent-glow);
+}
+
+.form-control::placeholder {
+  color: var(--text-dim);
+}
+
+label {
+  color: var(--text-dim);
+}
+
+.list-group-item {
+  background-color: rgba(3, 9, 5, 0.55);
+  color: var(--text);
+  border-color: var(--accent-dim);
+}
+
+.list-group-item a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+.list-group-item a:hover {
+  color: var(--accent);
+}
+
+blockquote cite a {
+  color: var(--text-dim);
+}
+
+/* -------------------- Sample Projects grid -------------------- */
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1.5rem;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  background: rgba(6, 15, 8, 0.9);
+  border: 1px solid var(--accent-dim);
+  border-radius: 4px;
+  overflow: hidden;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--accent);
+  box-shadow: 0 0 18px var(--accent-glow);
+}
+
+.project-card img {
+  height: 180px;
+  object-fit: cover;
+  width: 100%;
+  background: #000;
+}
+
+.project-card-body {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.project-card-body h5 {
+  color: var(--accent);
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.project-card-body p {
+  flex: 1;
+  color: var(--text-dim);
+}
+
+.project-card-actions {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-top: 0.75rem;
+}
+
+/* -------------------- Misc / legacy positioned elements -------------------- */
 #topBtn {
   position: fixed;
   left: 30px;
@@ -45,4 +316,3 @@ body {
   bottom: 85px;
   right: 15vw;
 }
-
