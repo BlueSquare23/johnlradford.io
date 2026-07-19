@@ -126,6 +126,64 @@ hr {
   }
 }
 
+/* -------------------- Boot sequence -------------------- */
+#boot-screen {
+  position: fixed;
+  inset: 0;
+  z-index: 10000;
+  background: var(--bg);
+  color: var(--accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  transition: opacity 0.4s ease;
+}
+
+#boot-screen.boot-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.boot-inner {
+  width: 100%;
+  max-width: 46em;
+}
+
+#boot-output {
+  white-space: pre-wrap;
+  font-size: 1.15em;
+  line-height: 1.5;
+  min-height: 14em;
+  margin: 0;
+}
+
+.boot-cursor {
+  display: inline-block;
+  width: 0.5em;
+  background: var(--accent);
+  animation: blink 1s steps(1) infinite;
+}
+
+.boot-skip-hint {
+  margin-top: 1.5rem;
+  color: var(--accent-dim);
+  font-size: 0.85em;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.boot-skip-hint.visible {
+  opacity: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #boot-screen {
+    display: none;
+  }
+}
+
 /* -------------------- Bootstrap component overrides -------------------- */
 /* Bootstrap 5.0.2 marks bg-dark/text-white/border-secondary utilities
    !important, so overrides here must match to win. */

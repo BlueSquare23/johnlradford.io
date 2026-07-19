@@ -43,6 +43,18 @@
   
   <div class="snow">
   <body>
+    <!-- Boot Sequence Intro -->
+    <div id="boot-screen">
+      <noscript><style>#boot-screen{display:none !important;}</style></noscript>
+      <div class="boot-inner">
+        <pre id="boot-output"></pre>
+        <p id="boot-skip-hint" class="boot-skip-hint">
+          <span class="boot-cursor" aria-hidden="true">&nbsp;</span> press any key or click to skip
+        </p>
+      </div>
+    </div>
+    <script src="./static/js/boot-sequence.js"></script>
+
     <!-- Nice Bootstrap Navbar -->
     <?php include "./nav.html" ?>
   
