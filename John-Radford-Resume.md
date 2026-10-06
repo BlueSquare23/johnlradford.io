@@ -2,7 +2,7 @@
 
 _DevOps Engineer & Systems Programmer_
 
-johnlradford@proton.me · 1 412-780-2053 · Pittsburgh, PA · [https://johnlradford.io](https://johnlradford.io)
+johnlradford@proton.me · 1 412-780-2053 · Pittsburgh, PA · [https://johnlradford.io](https://johnlradford.io) · https://github.com/BlueSquare23 · https://www.linkedin.com/in/johnlradford
 
 ## Summary
 
@@ -22,7 +22,7 @@ Applies computer science fundamentals and insightful technical leadership to bui
 
 _Pittsburgh PA_
 
-Designed and built internal applications and tooling for a production web hosting operation, primarily in Python and Perl. Build CI/CD pipelines using IaC/CaC/MaC with Puppet and Ansible and monitoring via Icinga2 and ELK, deployed using GitOps.
+Designed and built internal applications and tooling for a production web hosting operation, primarily in Python and Perl. Built CI/CD pipelines using IaC/CaC/MaC with Puppet and Ansible and monitoring via Icinga2 and ELK, deployed using GitOps.
 
 Flagship projects include: a Virtual Resource Manager (per-host REST agents, weighted rebalancing algo, and a REPL CLI) for thousands of QEMU/KVM guests across dozens of physical hosts on multiple network segments, a ChromaDB-backed RAG pipeline powering internal support LLMs, and a Redis-cached IP threat intelligence service. Also shipped Zendesk webhook APIs, Nginx/Apache rate limiting, a CloudLinux rollout across entire shared hosting fleet, and KPI and web statistics pipelines that eliminated recurring manual reporting.
 
